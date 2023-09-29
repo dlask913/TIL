@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Table @Entity @Getter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@NoArgsConstructor
 public class Item {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "item_id")
@@ -22,9 +22,9 @@ public class Item {
         this.stock --;
     }
 
-    @Builder
-    public Item(Long id, int stock) {
-        this.id = id;
-        this.stock = stock;
+    // 테스트 초기 설정 용도
+    public void setStock(){
+        this.stock = 100;
     }
+
 }
