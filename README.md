@@ -8,3 +8,5 @@
 **2023-12-26** <br>
 [(vue3) ref 와 reactive](https://github.com/dlask913/TIL/blob/main/vue3/ref-and-reactive.md)
 
+**2023-12-27** <br>
+[(vue3) 데이터 바인딩](https://github.com/dlask913/TIL/blob/main/vue3/data-binding.md)
