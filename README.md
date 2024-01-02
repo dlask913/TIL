@@ -10,3 +10,6 @@
 
 **2023-12-27** <br>
 [(vue3) 데이터 바인딩](https://github.com/dlask913/TIL/blob/main/vue3/data-binding.md)
+
+**2024-01-02** <br>
+[(vue3) 조건부 렌더링](https://github.com/dlask913/TIL/blob/main/vue3/conditional-rendering.md)
