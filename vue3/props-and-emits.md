@@ -13,12 +13,12 @@
 ```javascript
 <script>
 	export default {
-	    props: {
-	        todos: {
-	            type: Array,
-	            required: true
-	        }
+	    props: {
+		todos: {
+		    type: Array,
+		    required: true
 		}
+	    }
 	}
 </script>
 ```
@@ -68,8 +68,7 @@
 ```javascript
 <script>
 	export default {
-	
-		emits: ['toggle-todo', 'delete-todo'], // 선언
+ 	    emits: ['toggle-todo', 'delete-todo'], // 선언
 	
 	    setup(props, { emit }) { // 구조 해제를 통한 중복 코드 제거
 	        const toggleTodo = (index) => {
@@ -88,7 +87,7 @@
 ```
 - Emits 사용 ( 자식 ) : 자식 컴포넌트 내에서 ```$emit``` 을 사용하여 이벤트를 발생시킬 수 있다.
 ```javascript
-		<button
+        <button
             class="btn btn-danger btn-sm"
             @click="$emit('deleteTodo',index)"
         >
