@@ -13,3 +13,6 @@
 
 **2024-01-02** <br>
 [(vue3) 조건부 렌더링](https://github.com/dlask913/TIL/blob/main/vue3/conditional-rendering.md)
+
+**2024-01-03** <br>
+[(vue3) props와 emits](https://github.com/dlask913/TIL/blob/main/vue3/props-and-emits.md)
