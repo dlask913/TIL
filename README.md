@@ -16,3 +16,6 @@
 
 **2024-01-03** <br>
 [(vue3) props와 emits](https://github.com/dlask913/TIL/blob/main/vue3/props-and-emits.md)
+
+**2024-01-22** <br>
+[(vue3) watch와 watchEffect](https://github.com/dlask913/TIL/blob/main/vue3/watch-and-watchEffect.md)
