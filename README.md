@@ -19,3 +19,6 @@
 
 **2024-01-22** <br>
 [(vue3) watch와 watchEffect](https://github.com/dlask913/TIL/blob/main/vue3/watch-and-watchEffect.md)
+
+**2024-02-02** <br>
+[(js+vue3) 이벤트 버블링(Event Bubbling)](https://github.com/dlask913/TIL/blob/main/js/event-bubbling.md)
