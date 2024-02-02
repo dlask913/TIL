@@ -9,11 +9,11 @@
 ```javascript
 <template>
 ..
-		<div
-        class="card-body p-2 d-flex align-items-center"
-        @click="moveToPage(todo.id)" // 2. moveToPage
-      >
-        // ..생략
+      	<div
+	  class="card-body p-2 d-flex align-items-center"
+          @click="moveToPage(todo.id)" // 2. moveToPage
+      	>
+        // ..
         </div>
         <div>
           <button
@@ -22,7 +22,6 @@
           >
             Delete</button>
         </div>
-      </div>
 </template>
 
 <script>
@@ -48,7 +47,7 @@ export default {
 <br>
 
 ## 해결 방안 
-이벤트가 상위 요소로 전달하는 것을 막는 방법은 매우 간단한데 javascript 와 vue3의 방법이 다르다. javascript 에서는 ```event.stopPropagation()'``` 으로 vue3에서는  ```.stop``` 을 사용할 수 있다.
+이벤트가 상위 요소로 전달하는 것을 막는 방법은 매우 간단한데 javascript 와 vue3의 방법이 다르다. javascript 에서는 ```event.stopPropagation()``` 으로 vue3에서는  ```.stop``` 을 사용할 수 있다.
 - javascript
 ```html
 <body onclick="alert('Delete!')">
@@ -57,7 +56,7 @@ export default {
 ```
 - vue3
 ```html
-		<div>
+        <div>
           <button
             class="btn btn-danger btn-sm"
             @click.stop="$emit('deleteTodo',index)"
