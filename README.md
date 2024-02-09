@@ -25,3 +25,6 @@
 
 **2024-02-07** <br>
 [(vue3) 라이프사이클 훅(Lifecycle Hooks)](https://github.com/dlask913/TIL/blob/main/vue3/lifecycle-hooks.md)
+
+**2024-02-09** <br>
+[(redis) Redis 란](https://github.com/dlask913/TIL/blob/main/redis/what-is-redis.md)
