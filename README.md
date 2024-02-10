@@ -28,3 +28,6 @@
 
 **2024-02-09** <br>
 [(redis) Redis 란](https://github.com/dlask913/TIL/blob/main/redis/what-is-redis.md)
+
+**2024-02-10** <br>
+[(redis) Redis 실행 방법 및 데이터 타입](https://github.com/dlask913/TIL/blob/main/redis/how-to-use-redis.md)
