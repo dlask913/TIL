@@ -34,3 +34,6 @@
 
 **2024-02-11** <br>
 [(redis) Redis 특수 명령어](https://github.com/dlask913/TIL/blob/main/redis/redis-commands.md)
+
+**2024-02-15** <br>
+[(redis) Redis 데이터타입별 활용 사례](https://github.com/dlask913/TIL/blob/main/redis/guide-to-data-types.md)
