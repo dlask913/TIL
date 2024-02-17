@@ -37,3 +37,6 @@
 
 **2024-02-15** <br>
 [(redis) Redis 데이터타입별 활용 사례](https://github.com/dlask913/TIL/blob/main/redis/guide-to-data-types.md)
+
+**2024-02-17** <br>
+[(redis) Redis 사용 시 주의사항](https://github.com/dlask913/TIL/blob/main/redis/precautions-when-using-redis.md)
