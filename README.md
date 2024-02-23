@@ -40,3 +40,6 @@
 
 **2024-02-17** <br>
 [(redis) Redis 사용 시 주의사항](https://github.com/dlask913/TIL/blob/main/redis/precautions-when-using-redis.md)
+
+**2024-02-23** <br>
+[(kafka) 기본 구조 및 데이터 파이프라인에 적합한 이유](https://github.com/dlask913/TIL/blob/main/kafka/why-use-kafka-data-pipelines.md)
