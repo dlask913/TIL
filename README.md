@@ -43,3 +43,6 @@
 
 **2024-02-23** <br>
 [(kafka) 기본 구조 및 데이터 파이프라인에 적합한 이유](https://github.com/dlask913/TIL/blob/main/kafka/why-use-kafka-data-pipelines.md)
+
+**2024-02-25** <br>
+[(kafka) 기본 개념 1](https://github.com/dlask913/TIL/blob/main/kafka/broker-cluster-log-segment-cleanup.md)
