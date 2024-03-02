@@ -49,3 +49,6 @@
 
 **2024-03-01** <br>
 [(kafka) 기본 개념 2](https://github.com/dlask913/TIL/blob/main/kafka/replication-isr-topic-partition-record.md)
+
+**2024-03-02** <br>
+[(kafka) 클러스터 운영](https://github.com/dlask913/TIL/blob/main/kafka/cluster-operiations.md)
