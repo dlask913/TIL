@@ -52,3 +52,6 @@
 
 **2024-03-02** <br>
 [(kafka) 클러스터 운영](https://github.com/dlask913/TIL/blob/main/kafka/cluster-operiations.md)
+
+**2024-03-03** <br>
+[(kafka) 카프카 설치 및 실행](https://github.com/dlask913/TIL/blob/main/kafka/install-and-run.md)
