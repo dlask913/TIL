@@ -58,3 +58,6 @@
 
 **2024-03-16** <br>
 [(spring-security) 인증 API 및 필터](https://github.com/dlask913/TIL/blob/main/spring-security/authentication-api-and-filter.md)
+
+**2024-03-24** <br>
+[(kafka) 카프카 CLI 활용하기 1](https://github.com/dlask913/TIL/blob/main/kafka/kafka-topics-and-kafka-configs.md)
