@@ -64,3 +64,6 @@
 
 **2024-04-01** <br>
 [(kafka) 카프카 CLI 활용하기 2](https://github.com/dlask913/TIL/blob/main/kafka/kafka-console-producer-and-consumer.md)
+
+**2024-04-08** <br>
+[(kafka) 카프카 CLI 활용하기 3](https://github.com/dlask913/TIL/blob/main/kafka/kafka-consumer-groups-and-etc.md)
