@@ -70,3 +70,6 @@
 
 **2024-04-16** <br>
 [(spring) spring 과 spring boot 및 WAR 빌드와 배포](https://github.com/dlask913/TIL/blob/main/spring/spring-and-boot-and-war.md)
+
+**2024-04-21** <br>
+[(Spring) 서블릿 컨테이너 초기화](https://github.com/dlask913/TIL/blob/main/spring/spring-servlet-container.md)
