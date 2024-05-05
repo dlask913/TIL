@@ -76,3 +76,6 @@
 
 **2024-04-28** <br>
 [(Spring) 스프링 부트와 내장 톰캣](https://github.com/dlask913/TIL/blob/main/spring/spring-boot-and-embed-tomcat.md)
+
+**2024-05-05** <br>
+[(Spring) 자동 구성 라이브러리 만들기](https://github.com/dlask913/TIL/blob/main/spring/auto-configuration.md)
