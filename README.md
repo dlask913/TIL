@@ -79,3 +79,6 @@
 
 **2024-05-05** <br>
 [(Spring) 자동 구성 라이브러리 만들기](https://github.com/dlask913/TIL/blob/main/spring/auto-configuration.md)
+
+**2024-05-13** <br>
+[(Spring) Actuator](https://github.com/dlask913/TIL/blob/main/spring/spring-actuator.md)
