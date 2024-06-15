@@ -88,3 +88,6 @@
 
 **2024-06-02** <br>
 [(Spring) 프로메테우스](https://github.com/dlask913/TIL/blob/main/spring/prometheus.md)
+
+**2024-06-15** <br>
+[(DevOps) 가상화 기술](https://github.com/dlask913/TIL/blob/main/devops/virtualization.md)
