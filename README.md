@@ -94,3 +94,6 @@
 
 **2024-06-16** <br>
 [(Docker) 도커](https://github.com/dlask913/TIL/blob/main/devops/docker.md)
+
+**2024-06-17** <br>
+[(Docker) 이미지, 컨테이너의 라이프사이클](https://github.com/dlask913/TIL/blob/main/devops/image-and-container-life-cycle.md)
