@@ -97,3 +97,6 @@
 
 **2024-06-17** <br>
 [(Docker) 이미지, 컨테이너의 라이프사이클](https://github.com/dlask913/TIL/blob/main/devops/image-and-container-life-cycle.md)
+
+**2024-06-23** <br>
+[(Docker) 이미지 레지스트리](https://github.com/dlask913/TIL/blob/main/devops/image-registry.md)
