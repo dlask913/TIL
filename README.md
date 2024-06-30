@@ -100,3 +100,6 @@
 
 **2024-06-23** <br>
 [(Docker) 이미지 레지스트리](https://github.com/dlask913/TIL/blob/main/devops/image-registry.md)
+
+**2024-06-30** <br>
+[(Docker) 이미지 레이어 구조와 이미지 생성 방법](https://github.com/dlask913/TIL/blob/main/devops/image-layer-commit-build.md)
