@@ -109,3 +109,6 @@
 
 **2024-07-14** <br>
 [(Spring) 모니터링 메트릭 활용](https://github.com/dlask913/TIL/blob/main/spring/make-metrics.md)
+
+**2024-07-28** <br>
+[(Docker) 빌드 컨텍스트, Dokcerfile과 멀티 스테이지 빌드](https://github.com/dlask913/TIL/blob/main/devops/dockerfile-multi-stage-build.md)
