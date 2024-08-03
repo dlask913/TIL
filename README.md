@@ -112,3 +112,6 @@
 
 **2024-07-28** <br>
 [(Docker) 빌드 컨텍스트, Dokcerfile과 멀티 스테이지 빌드](https://github.com/dlask913/TIL/blob/main/devops/dockerfile-multi-stage-build.md)
+
+**2024-08-03** <br>
+[(Docker) 컨테이너 애플리케이션 구성 1](https://github.com/dlask913/TIL/blob/main/devops/cloud-and-container-application.md)
