@@ -115,3 +115,6 @@
 
 **2024-08-03** <br>
 [(Docker) 컨테이너 애플리케이션 구성 1](https://github.com/dlask913/TIL/blob/main/devops/cloud-and-container-application.md)
+
+**2024-08-04** <br>
+[(Docker) 컨테이너 애플리케이션 구성 2](https://github.com/dlask913/TIL/blob/main/devops/container-application-2.md)
