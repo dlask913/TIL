@@ -118,3 +118,6 @@
 
 **2024-08-04** <br>
 [(Docker) 컨테이너 애플리케이션 구성 2](https://github.com/dlask913/TIL/blob/main/devops/container-application-2.md)
+
+**2024-08-11** <br>
+[(DevOps) 네트워크 기본](https://github.com/dlask913/TIL/blob/main/devops/network-basics.md)
