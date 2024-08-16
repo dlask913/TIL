@@ -123,4 +123,7 @@
 [(DevOps) 네트워크 기본](https://github.com/dlask913/TIL/blob/main/devops/network-basics.md)
 
 **2024-08-14** <br>
-[(DevOps) 도커 네트워크 1](https://github.com/dlask913/TIL/blob/main/devops/docker-network-1.md)
+[(Docker) 도커 네트워크 1](https://github.com/dlask913/TIL/blob/main/devops/docker-network-1.md)
+
+**2024-08-16** <br>
+[(Docker) 도커 네트워크 2](https://github.com/dlask913/TIL/blob/main/devops/docker-network-2.md)
