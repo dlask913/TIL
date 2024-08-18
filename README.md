@@ -127,3 +127,6 @@
 
 **2024-08-16** <br>
 [(Docker) 도커 네트워크 2](https://github.com/dlask913/TIL/blob/main/devops/docker-network-2.md)
+
+**2024-08-18** <br>
+[(Docker) 컨테이너 상태](https://github.com/dlask913/TIL/blob/main/devops/container-state.md)
