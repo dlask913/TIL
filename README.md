@@ -137,5 +137,8 @@
 **2024-09-01** <br>
 [(Docker) 캐싱을 활용한 빌드](https://github.com/dlask913/TIL/blob/main/devops/image-build-with-cache.md)
 
-**2024-09-00** <br>
+**2024-09-02** <br>
 [(Docker) 프록시를 이용한 Nginx 서버 구성](https://github.com/dlask913/TIL/blob/main/devops/nginx-container-with-proxy.md)
+
+**2024-09-08** <br>
+[(Kafka) 카프카 프로듀서와 파티셔너](https://github.com/dlask913/TIL/blob/main/kafka/producer-and-partitioner.md)
