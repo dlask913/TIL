@@ -142,3 +142,6 @@
 
 **2024-09-08** <br>
 [(Kafka) 카프카 프로듀서와 파티셔너](https://github.com/dlask913/TIL/blob/main/kafka/producer-and-partitioner.md)
+
+**2024-09-14** <br>
+[(Kafka) 카프카 프로듀서 옵션들](https://github.com/dlask913/TIL/blob/main/kafka/producer-options.md)
