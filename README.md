@@ -148,3 +148,6 @@
 
 **2024-09-18** <br>
 [(Docker) Postgres DB 이중화 구성 및 애플리케이션 최적화](https://github.com/dlask913/TIL/blob/main/devops/db-redundancy-container-optimization.md)
+
+**2024-09-21** <br>
+[(Kafka) 카프카 프로듀서 애플리케이션 개발](https://github.com/dlask913/TIL/blob/main/kafka/producer-application-development.md)
