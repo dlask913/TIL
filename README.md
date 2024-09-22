@@ -151,3 +151,6 @@
 
 **2024-09-21** <br>
 [(Kafka) 카프카 프로듀서 애플리케이션 개발](https://github.com/dlask913/TIL/blob/main/kafka/producer-application-development.md)
+
+**2024-09-22** <br>
+[(Kafka) 카프카 컨슈머와 컨슈머 그룹](https://github.com/dlask913/TIL/blob/main/kafka/consumer-and-consumer-groups.md)
