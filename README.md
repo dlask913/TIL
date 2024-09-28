@@ -154,3 +154,6 @@
 
 **2024-09-22** <br>
 [(Kafka) 카프카 컨슈머와 컨슈머 그룹](https://github.com/dlask913/TIL/blob/main/kafka/consumer-and-consumer-groups.md)
+
+**2024-09-28** <br>
+[(Kafka) 카프카 컨슈머 옵션들](https://github.com/dlask913/TIL/blob/main/kafka/consumer-options.md)
