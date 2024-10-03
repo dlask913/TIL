@@ -160,3 +160,6 @@
 
 **2024-10-01** <br>
 [(Kafka) 카프카 컨슈머 애플리케이션 개발](https://github.com/dlask913/TIL/blob/main/kafka/consumer-application-development.md)
+
+**2024-10-03** <br>
+[(Kafka) 카프카 컨슈머 애플리케이션 개발 2](https://github.com/dlask913/TIL/blob/main/kafka/consumer-application-development-2.md)
