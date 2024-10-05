@@ -163,3 +163,6 @@
 
 **2024-10-03** <br>
 [(Kafka) 카프카 컨슈머 애플리케이션 개발 2](https://github.com/dlask913/TIL/blob/main/kafka/consumer-application-development-2.md)
+
+**2024-10-05** <br>
+[(Kafka) 멱등성 프로듀서 및 트랜잭션 프로듀서와 컨슈머](https://github.com/dlask913/TIL/blob/main/kafka/idempotent-producer-and-transaction.md)
