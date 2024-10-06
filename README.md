@@ -166,3 +166,6 @@
 
 **2024-10-05** <br>
 [(Kafka) 멱등성 프로듀서 및 트랜잭션 프로듀서와 컨슈머](https://github.com/dlask913/TIL/blob/main/kafka/idempotent-producer-and-transaction.md)
+
+**2024-10-06** <br>
+[(Kafka) 카프카 스트림즈](https://github.com/dlask913/TIL/blob/main/kafka/kafka-streams.md)
