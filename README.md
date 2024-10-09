@@ -169,3 +169,6 @@
 
 **2024-10-06** <br>
 [(Kafka) 카프카 스트림즈](https://github.com/dlask913/TIL/blob/main/kafka/kafka-streams.md)
+
+**2024-10-09** <br>
+[(Kafka) 카프카 스트림즈 옵션들](https://github.com/dlask913/TIL/blob/main/kafka/streams-options.md)
