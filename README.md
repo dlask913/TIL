@@ -172,3 +172,6 @@
 
 **2024-10-09** <br>
 [(Kafka) 카프카 스트림즈 옵션들](https://github.com/dlask913/TIL/blob/main/kafka/streams-options.md)
+
+**2024-10-12** <br>
+[(Kafka) 카프카 스트림즈 애플리케이션 개발](https://github.com/dlask913/TIL/blob/main/kafka/streams-application-development.md)
