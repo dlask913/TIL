@@ -175,3 +175,6 @@
 
 **2024-10-12** <br>
 [(Kafka) 카프카 스트림즈 애플리케이션 개발](https://github.com/dlask913/TIL/blob/main/kafka/streams-application-development.md)
+
+**2024-10-20** <br>
+[(Kafka) 카프카 커넥트](https://github.com/dlask913/TIL/blob/main/kafka/kafka-connect.md)
