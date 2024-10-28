@@ -178,3 +178,6 @@
 
 **2024-10-20** <br>
 [(Kafka) 카프카 커넥트](https://github.com/dlask913/TIL/blob/main/kafka/kafka-connect.md)
+
+**2024-10-28** <br>
+[(Kafka) 카프카 커넥터 커스텀](https://github.com/dlask913/TIL/blob/main/kafka/connector-custom.md)
