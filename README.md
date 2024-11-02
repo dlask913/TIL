@@ -181,3 +181,6 @@
 
 **2024-10-28** <br>
 [(Kafka) 카프카 커넥터 커스텀](https://github.com/dlask913/TIL/blob/main/kafka/connector-custom.md)
+
+**2024-11-02** <br>
+[(Kafka) 카프카 활용 아키텍처 사례](https://github.com/dlask913/TIL/blob/main/kafka/kafka-based-architecture.md)
