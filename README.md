@@ -187,3 +187,6 @@
 
 **2024-11-03** <br>
 [(Docker) 도커 컴포즈](https://github.com/dlask913/TIL/blob/main/devops/docker-compose.md)
+
+**2024-11-04** <br>
+[(CI/CD) 젠킨스 파이프라인 설정](https://github.com/dlask913/TIL/blob/main/devops/jenkins-pipeline.md)
