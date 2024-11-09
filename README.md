@@ -190,3 +190,6 @@
 
 **2024-11-04** <br>
 [(CI/CD) 젠킨스 파이프라인 설정](https://github.com/dlask913/TIL/blob/main/devops/jenkins-pipeline.md)
+
+**2024-11-09** <br>
+[(DevOps) DevOps, CI/CD, GitHubActions 개념](https://github.com/dlask913/TIL/blob/main/devops/devops-cicd-githubactions.md)
