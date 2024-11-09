@@ -186,5 +186,71 @@ volumes:
 
 <br>
 
+## Docker Compose 실습 - leafy
+1. 프론트앤드 소스코드 수정
+2. docker compose 로 전체 환경 빠르게 구성 및 테스트 진행
+
+> docker compose 실행 시 컨테이너들은 모두 같은 네트워크에 속하게 구성된다.
+
+```yml
+version: '3'
+services:
+  leafy-postgres:
+    image: devwikirepo/leafy-postgres:1.0.0 # 외부 이미지를 사용해 컨테이너 실행
+  leafy-backend:
+    build: ./leafy-backend # 이미지 없으면 해당 폴더의 이미지 빌드
+    image: leafy-backend:5.0.0-compose # 이미지 있으면 그대로 실행
+    environment: # DB 접속을 위한 URL 환경 변수 설정
+      - DB_URL=leafy-postgres
+    depends_on: # 여기에 지정한 컨테이너가 실행될 때까지 컨테이너 실행을 보류, 그런데 여기에 지정한 컨테이너가 Running 상태에서 내부 프로그램 실행에 시간이 오래 걸리는 경우 문제가 발생할 수 있다. 
+      - leafy-postgres
+  leafy-front:
+    build: ./leafy-frontend
+    image: leafy-front:5.0.0-compose
+    environment:
+      - BACKEND_HOST=leafy-backend
+    ports: # 컨테이너의 포트포워딩 정의
+      - 80:80
+    depends_on:
+      - leafy-backend
+```
+
+### volume 추가하기 
+```yml
+services:
+  leafy-postgres: # 볼륨 추가
+    build: ./leafy-postgresql
+    image: leafy-postgres:5.0.0-compose
+    volumes:
+      - mydata:/var/lib/postgresql/data
+
+volumes: # 볼륨 정의
+  mydata:
+```
+
+### 리소스 사용량 제한 및 재시작 정책 지정
+```yml
+services:
+  leafy-postgres:
+    build: ./leafy-postgresql
+    image: leafy-postgres:5.0.0-compose
+    volumes:
+      - mydata:/var/lib/postgresql/data
+    deploy:
+      resources:
+        limits:
+          cpus: '1' # 최대 CPU 사용량
+          memory: 256M # 최대 RAM 사용량
+    restart: always # 무조건 재실행, on-failure : 실패 시에만 재실행 ( outofmemory 등 )
+```
+
+### 실행하기
+```bash
+docker compose up -d
+# docker compose down or docker compose down -v
+```
+
+<br>
+
 ## 참고
 [인프런 - 개발자를 위한 쉬운 도커](https://inf.run/wHHR8) 
