@@ -193,3 +193,6 @@
 
 **2024-11-09** <br>
 [(DevOps) DevOps, CI/CD, GitHubActions 개념](https://github.com/dlask913/TIL/blob/main/devops/devops-cicd-githubactions.md)
+
+**2024-11-10** <br>
+[(DevOps) GitHub Actions 파이프라인 가이드](https://github.com/dlask913/TIL/blob/main/devops/github-actions-pipeline-guide.md)
