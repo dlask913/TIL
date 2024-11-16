@@ -129,6 +129,37 @@ $ vi ~/.ssh/authorized_keys
 
 <br>
 
+#### ＊Application Instance 공개키 Permission denied 인 경우 ( [참고](https://medium.com/@minaxijoshi3101/fix-ssh-failed-permission-denied-publickey-gssapi-keyex-gssapi-with-mic-8d0721d33c2e) )
+> + scp -o StrictHostKeyChecking=.jar root@223.130.155.130:/root/
+Permission denied, please try again.
+Permission denied, please try again.
+root@223.130.155.130: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+scp: Connection closed 발생 가능
+
+: 위에서 application-instance 에 공개키 저장을 했음에도 빌드 시에 위와 Permission denied 가 된 경우 설정을 다시 확인본다.
+
+1. /etc/ssh/sshd_config 편집하기 
+```bash
+vim /etc/ssh/sshd_config_
+```
+2. 아래 설정 확인하고 없으면 추가하기
+```bash
+PermitRootLogin yes  
+PubkeyAuthentication yes  
+PasswordAuthentication yes
+```
+3. sshd service 재시작
+```bash
+systemctl restart sshd
+```
+
+- ~/.ssh/authorized_key 저장이 안된다면 수동 생성
+```bash
+sudo mkdir -p /root/.ssh 
+```
+
+<br>
+
 #### ＊SSH Agent 설치
 > java.lang.NoSuchMethodError: No such DSL method 'sshagent' found among steps [..] 발생 가능
 
