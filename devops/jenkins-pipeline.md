@@ -43,6 +43,32 @@ sudo docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 <br>
 
+#### ＊도커 설치 시 baseUrl 재설정 ( [참고](https://forums.docker.com/t/docker-ce-stable-x86-64-repo-not-available-https-error-404-not-found-https-download-docker-com-linux-centos-7server-x86-64-stable-repodata-repomd-xml/98965/4) )
+> [] # sudo dnf install docker-ce docker-ce-cli containerd.io -y <br>
+> Errors during downloading metadata for repository 'docker-ce-stable': - Status code: 404 for https://download.docker.com/linux/centos/8.10/x86_64/stable/repodata/repomd.xml (IP: 18.244.61.41) Error: Failed to download metadata for repo 'docker-ce-stable': Cannot download repomd.xml: <br>
+> 도커 설치 단계에서 repository 를 찾을 수 없다는 예외가 발생
+
+1.  docker-ce.repo 파일 편집
+```bash
+sudo nano /etc/yum.repos.d/docker-ce.repo
+```
+
+2. docker-ce.repo 파일 내 docker-ce-stable 의 baseUrl 변경
+![image](https://github.com/user-attachments/assets/cf0db6ab-e452-429e-899a-37c3d78170d3)
+<br>
+
+3. repository 캐시 업데이트
+```bash
+sudo dnf makecache
+```
+
+4. Docker 설치
+```bash
+sudo dnf install docker-ce docker-ce-cli containerd.io -y
+```
+
+<br>
+
 ### 추가 애플리케이션 실행을 위한 인스턴스 생성
 - Type : Cloud Compute - Shared CPU 
 - Region : Seoul
