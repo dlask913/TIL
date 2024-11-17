@@ -196,3 +196,6 @@
 
 **2024-11-10** <br>
 [(DevOps) GitHub Actions 파이프라인 가이드](https://github.com/dlask913/TIL/blob/main/devops/github-actions-pipeline-guide.md)
+
+**2024-11-17** <br>
+[(CI/CD) WebHook 를 활용한 배포 자동화](https://github.com/dlask913/TIL/blob/main/devops/deployment-using-webhook.md)
