@@ -258,5 +258,54 @@ pipeline {
 
 <br>
 
+## 배포 성공과 실패
+: 앞서 작성했던 배포 스크립트의 경우, 배포가 정상적으로 종료되지 않고 계속 진행되어있는 것을 볼 수 있다. 
+
+- Deploy 단계의 script 수정하기
+```groovy
+stage('Deploy') {
+	steps {
+		script {
+			def jarFile = '[Maven 빌드로 생성된 jar 파일의 위치]'
+			def serverIp = '[원격 서버의 IP 주소]'
+			def deployPath = '[배포 경로]'
+			// nohup 으로 백그라운드 실행 및 로그파일 지정
+			def runAppCommand = "nohup java -jar $deployPath/shortenurlservice-0.0.1-SNAPSHOT.jar > $deployPath/app.log 2>&1 &"
+			// 배포가 성공했을 때 출력해줄 문자열 정의 ( 약한 검증 )
+			def checkLogCommand = "grep -q 'Started ShortenurlserviceApplication in' $deployPath/app.log"
+			
+			sh "scp -o StrictHostKeyChecking=no $jarFile root@$serverIp:$deployPath/"
+			
+			sshagent(['deploy_ssh_key']) {
+				sh "ssh -o StrictHostKeyChecking=no root@$serverIp '$runAppCommand'"
+				sleep 20 // 애플리케이션이 시작될 시간 제공
+				
+				// 로그 파일을 확인하여 애플리케이션 실행 확인
+				int result = sh script: "ssh -o StrictHostKeyChecking=no root@$serverIp '$checkLogCommand'", returnStatus: true
+				
+				if (result == 0) {
+					echo 'Deployment was successful.'
+				} else {
+					error 'Deployment failed.'
+				}
+			}
+		}
+	}
+}
+```
+
+> ※ **sleep 20** <br>
+> 만약 애플리케이션이 실행되기까지 20초 이상이 걸리면, 위에서 정의한 성공 문자열이 출력되기 전에 result 를 판단하게 되어 fail 이 될 가능성이 높다 ( 약한 스크립트 ) 
+> 그렇기 때문에 좀 더 정확한 검증을 위해서 반복문으로 매초마다 성공했는 지 체크하는 로직을 추가할 수 있다
+
+<br>
+
+### 애플리케이션 로그 확인하기 
+```bash
+tail -f app.log
+```
+
+<br>
+
 ## 참고
 [인프런 - 애플리케이션 배포 자동화와 CI/CD](https://inf.run/WqKp9) 
