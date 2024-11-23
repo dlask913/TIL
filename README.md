@@ -199,3 +199,6 @@
 
 **2024-11-17** <br>
 [(CI/CD) WebHook 를 활용한 배포 자동화](https://github.com/dlask913/TIL/blob/main/devops/deployment-using-webhook.md)
+
+**2024-11-23** <br>
+[(CI/CD) 무중단 배포](https://github.com/dlask913/TIL/blob/main/devops/zero-downtime-deployment.md)
