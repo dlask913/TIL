@@ -202,3 +202,6 @@
 
 **2024-11-23** <br>
 [(CI/CD) 무중단 배포](https://github.com/dlask913/TIL/blob/main/devops/zero-downtime-deployment.md)
+
+**2024-11-24** <br>
+[(CI/CD) CICD 테스트](https://github.com/dlask913/TIL/blob/main/devops/cicd-test.md)
