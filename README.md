@@ -205,3 +205,6 @@
 
 **2024-11-24** <br>
 [(CI/CD) CICD 테스트](https://github.com/dlask913/TIL/blob/main/devops/cicd-test.md)
+
+**2024-12-01** <br>
+[(Vue3) 프로젝트 구성](https://github.com/dlask913/TIL/blob/main/vue3/project-scaffold.md)
