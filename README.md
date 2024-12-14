@@ -208,3 +208,6 @@
 
 **2024-12-01** <br>
 [(Vue3) 프로젝트 구성](https://github.com/dlask913/TIL/blob/main/vue3/project-scaffold.md)
+
+**2024-12-14** <br>
+[(Redis) Redis 기본](https://github.com/dlask913/TIL/blob/main/redis/jscode-redis-basics.md)
