@@ -211,3 +211,6 @@
 
 **2024-12-14** <br>
 [(Redis) Redis 기본](https://github.com/dlask913/TIL/blob/main/redis/jscode-redis-basics.md)
+
+**2024-12-22** <br>
+[(Redis) Redis 캐싱 전략](https://github.com/dlask913/TIL/blob/main/redis/jscode-redis-caching-strategy.md)
