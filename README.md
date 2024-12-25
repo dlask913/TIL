@@ -214,3 +214,6 @@
 
 **2024-12-22** <br>
 [(Redis) Redis 캐싱 전략](https://github.com/dlask913/TIL/blob/main/redis/jscode-redis-caching-strategy.md)
+
+**2024-12-25** <br>
+[(Redis) Spring Boot + Redis 실습](https://github.com/dlask913/TIL/blob/main/redis/jscode-springboot-redis-practice.md)
