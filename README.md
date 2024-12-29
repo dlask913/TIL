@@ -217,3 +217,6 @@
 
 **2024-12-25** <br>
 [(Redis) Spring Boot + Redis 실습](https://github.com/dlask913/TIL/blob/main/redis/jscode-springboot-redis-practice.md)
+
+**2024-12-29** <br>
+[(Redis) AWS 에서 Redis 활용하기](https://github.com/dlask913/TIL/blob/main/redis/jscode-springboot-redis-aws.md)
