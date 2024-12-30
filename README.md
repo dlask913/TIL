@@ -220,3 +220,6 @@
 
 **2024-12-29** <br>
 [(Redis) AWS 에서 Redis 활용하기](https://github.com/dlask913/TIL/blob/main/redis/jscode-springboot-redis-aws.md)
+
+**2024-12-30** <br>
+[(Redis) 부하테스트로 Redis 성능 비교하기](https://github.com/dlask913/TIL/blob/main/redis/jscode-redis-k6-loadtest.md)
