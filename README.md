@@ -223,3 +223,6 @@
 
 **2024-12-30** <br>
 [(Redis) 부하테스트로 Redis 성능 비교하기](https://github.com/dlask913/TIL/blob/main/redis/jscode-redis-k6-loadtest.md)
+
+**2024-12-31** <br>
+[(Redis) Docker Compose 로 Redis, Spring Boot 띄우기](https://github.com/dlask913/TIL/blob/main/redis/jscode-redis-springboot-docker.md)
