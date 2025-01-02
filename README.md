@@ -229,3 +229,6 @@
 
 **2025-01-01** <br>
 [(Redis) AWS 환경에서 ElastiCache 사용하기](https://github.com/dlask913/TIL/blob/main/redis/jscode-elasticache-instead-of-redis.md)
+
+**2025-01-02** <br>
+[(Kubernetes) k8s 기본 오브젝트 - Pod, Service](https://github.com/dlask913/TIL/blob/main/kubernetes/object-pod-service.md)
