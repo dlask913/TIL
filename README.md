@@ -235,3 +235,6 @@
 
 **2025-01-03** <br>
 [(Kubernetes) k8s 기본 오브젝트 - Volume, ConfigMap 과 Secrets](https://github.com/dlask913/TIL/blob/main/kubernetes/object-volume-configmap-secret.md)
+
+**2025-01-04** <br>
+[(Kubernetes) k8s 기본 오브젝트 - Namespace, ResourceQuota, LimitRange](https://github.com/dlask913/TIL/blob/main/kubernetes/object-namespace-resourcequota-limitrange.md)
