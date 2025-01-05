@@ -238,3 +238,6 @@
 
 **2025-01-04** <br>
 [(Kubernetes) k8s 기본 오브젝트 - Namespace, ResourceQuota, LimitRange](https://github.com/dlask913/TIL/blob/main/kubernetes/object-namespace-resourcequota-limitrange.md)
+
+**2025-01-05** <br>
+[(Kubernetes) k8s 컨트롤러 - ReplicationController(Deprecated), ReplicaSet](https://github.com/dlask913/TIL/blob/main/kubernetes/controller-replicationcontroller-replicaset.md)
