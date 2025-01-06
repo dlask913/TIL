@@ -241,3 +241,6 @@
 
 **2025-01-05** <br>
 [(Kubernetes) k8s 컨트롤러 - ReplicationController(Deprecated), ReplicaSet](https://github.com/dlask913/TIL/blob/main/kubernetes/controller-replicationcontroller-replicaset.md)
+
+**2025-01-06** <br>
+[(Kubernetes) k8s 컨트롤러 - Deployment](https://github.com/dlask913/TIL/blob/main/kubernetes/controller-deployment.md)
