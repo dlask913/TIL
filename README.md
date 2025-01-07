@@ -244,3 +244,6 @@
 
 **2025-01-06** <br>
 [(Kubernetes) k8s 컨트롤러 - Deployment](https://github.com/dlask913/TIL/blob/main/kubernetes/controller-deployment.md)
+
+**2025-01-07** <br>
+[(Kubernetes) k8s 컨트롤러 - DaemonSet, Job, CronJob](https://github.com/dlask913/TIL/blob/main/kubernetes/controller-daemonset-job-cronjob.md)
