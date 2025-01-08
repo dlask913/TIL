@@ -247,3 +247,6 @@
 
 **2025-01-07** <br>
 [(Kubernetes) k8s 컨트롤러 - DaemonSet, Job, CronJob](https://github.com/dlask913/TIL/blob/main/kubernetes/controller-daemonset-job-cronjob.md)
+
+**2025-01-08** <br>
+[(Kubernetes) k8s Pod LifeCycle](https://github.com/dlask913/TIL/blob/main/kubernetes/pod-lifecycle.md)
