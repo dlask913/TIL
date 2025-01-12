@@ -253,3 +253,6 @@
 
 **2025-01-11** <br>
 [(Kubernetes) k8s Pod - ReadinessProbe, LivenessProbe, QoS](https://github.com/dlask913/TIL/blob/main/kubernetes/pod-readinessprobe-livenessprobe-qos.md)
+
+**2025-01-12** <br>
+[(Kubernetes) k8s Pod - Node Scheduling](https://github.com/dlask913/TIL/blob/main/kubernetes/pod-node-scheduling.md)
