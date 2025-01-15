@@ -256,3 +256,6 @@
 
 **2025-01-12** <br>
 [(Kubernetes) k8s Pod - Node Scheduling](https://github.com/dlask913/TIL/blob/main/kubernetes/pod-node-scheduling.md)
+
+**2025-01-15** <br>
+[(Kubernetes) k8s Kubernetes Architect](https://github.com/dlask913/TIL/blob/main/kubernetes/kubernetes-architect.md)
