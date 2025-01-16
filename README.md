@@ -259,3 +259,6 @@
 
 **2025-01-15** <br>
 [(Kubernetes) k8s Kubernetes Architect](https://github.com/dlask913/TIL/blob/main/kubernetes/kubernetes-architect.md)
+
+**2025-01-16** <br>
+[(Kubernetes) k8s Docker 와 ContainerD](https://github.com/dlask913/TIL/blob/main/kubernetes/docker-vs-containerd.md)
