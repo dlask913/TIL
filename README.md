@@ -262,3 +262,6 @@
 
 **2025-01-16** <br>
 [(Kubernetes) k8s Docker 와 ContainerD](https://github.com/dlask913/TIL/blob/main/kubernetes/docker-vs-containerd.md)
+
+**2025-01-18** <br>
+[(Kubernetes) k8s Pods 와 yaml 설정](https://github.com/dlask913/TIL/blob/main/kubernetes/pod-with-yaml.md)
