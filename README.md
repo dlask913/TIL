@@ -265,3 +265,6 @@
 
 **2025-01-18** <br>
 [(Kubernetes) k8s Pods 와 yaml 설정](https://github.com/dlask913/TIL/blob/main/kubernetes/pod-with-yaml.md)
+
+**2025-01-20** <br>
+[(Kubernetes) k8s ReplicaSets](https://github.com/dlask913/TIL/blob/main/kubernetes/replicaset.md)
