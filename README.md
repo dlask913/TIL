@@ -268,3 +268,6 @@
 
 **2025-01-20** <br>
 [(Kubernetes) k8s ReplicaSets](https://github.com/dlask913/TIL/blob/main/kubernetes/replicaset.md)
+
+**2025-01-21** <br>
+[(Kubernetes) k8s Deployment 와 Namespace](https://github.com/dlask913/TIL/blob/main/kubernetes/deployment-namespace.md)
