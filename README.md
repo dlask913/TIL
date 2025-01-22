@@ -271,3 +271,6 @@
 
 **2025-01-21** <br>
 [(Kubernetes) k8s Deployment 와 Namespace](https://github.com/dlask913/TIL/blob/main/kubernetes/deployment-namespace.md)
+
+**2025-01-22** <br>
+[(Kubernetes) k8s Docker Images](https://github.com/dlask913/TIL/blob/main/kubernetes/docker-images.md)
