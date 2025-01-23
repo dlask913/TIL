@@ -274,3 +274,6 @@
 
 **2025-01-22** <br>
 [(Kubernetes) k8s Docker Images](https://github.com/dlask913/TIL/blob/main/kubernetes/docker-images.md)
+
+**2025-01-23** <br>
+[(Kubernetes) k8s ConfigMap 과 Secret](https://github.com/dlask913/TIL/blob/main/kubernetes/configmap-and-secret.md)
