@@ -277,3 +277,6 @@
 
 **2025-01-23** <br>
 [(Kubernetes) k8s ConfigMap 과 Secret](https://github.com/dlask913/TIL/blob/main/kubernetes/configmap-and-secret.md)
+
+**2025-01-25** <br>
+[(Kubernetes) k8s Solutions - Pod, RS, Deploy, NS, Imperative](https://github.com/dlask913/TIL/blob/main/kubernetes/solutions-pod-rs-deploy-ns-imperative.md)
