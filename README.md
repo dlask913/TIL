@@ -283,3 +283,6 @@
 
 **2025-01-26** <br>
 [(Kubernetes) k8s Security Contexts](https://github.com/dlask913/TIL/blob/main/kubernetes/docker-security-security-contexts.md)
+
+**2025-01-27** <br>
+[(Kubernetes) k8s Service Accounts](https://github.com/dlask913/TIL/blob/main/kubernetes/service-accounts.md)
