@@ -286,3 +286,6 @@
 
 **2025-01-27** <br>
 [(Kubernetes) k8s Service Accounts](https://github.com/dlask913/TIL/blob/main/kubernetes/service-accounts.md)
+
+**2025-01-28** <br>
+[(Kubernetes) k8s Resource Requirements](https://github.com/dlask913/TIL/blob/main/kubernetes/resource-requirements.md)
