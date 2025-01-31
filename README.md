@@ -293,5 +293,8 @@
 **2025-01-29** <br>
 [(Kubernetes) k8s Taints/Tolerations and Node Affinity](https://github.com/dlask913/TIL/blob/main/kubernetes/taint-toleration-nodeaffinity.md)
 
-**2025-01-29** <br>
+**2025-01-30** <br>
 [(Kubernetes) k8s Solutions - Configuration](https://github.com/dlask913/TIL/blob/main/kubernetes/solutions-configuration.md)
+
+**2025-01-31** <br>
+[(Kubernetes) k8s Multi-Containers and InitContainers](https://github.com/dlask913/TIL/blob/main/kubernetes/multi-container-and-init-container.md)
