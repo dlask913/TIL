@@ -298,3 +298,6 @@
 
 **2025-01-31** <br>
 [(Kubernetes) k8s Multi-Containers and InitContainers](https://github.com/dlask913/TIL/blob/main/kubernetes/multi-container-and-init-container.md)
+
+**2025-02-01** <br>
+[(Kubernetes) k8s Readiness and Liveness Probes, Logging, Metrics](https://github.com/dlask913/TIL/blob/main/kubernetes/observability.md)
