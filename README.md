@@ -301,3 +301,6 @@
 
 **2025-02-01** <br>
 [(Kubernetes) k8s Readiness and Liveness Probes, Logging, Metrics](https://github.com/dlask913/TIL/blob/main/kubernetes/observability.md)
+
+**2025-02-02** <br>
+[(Kubernetes) k8s POD Design](https://github.com/dlask913/TIL/blob/main/kubernetes/pod-design.md)
