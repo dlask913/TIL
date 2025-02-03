@@ -304,3 +304,6 @@
 
 **2025-02-02** <br>
 [(Kubernetes) k8s POD Design](https://github.com/dlask913/TIL/blob/main/kubernetes/pod-design.md)
+
+**2025-02-03** <br>
+[(Kubernetes) k8s Ingree Network and Network Policies](https://github.com/dlask913/TIL/blob/main/kubernetes/ingress-network-and-network-policies.md)
