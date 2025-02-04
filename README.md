@@ -307,3 +307,6 @@
 
 **2025-02-03** <br>
 [(Kubernetes) k8s Ingree Network and Network Policies](https://github.com/dlask913/TIL/blob/main/kubernetes/ingress-network-and-network-policies.md)
+
+**2025-02-04** <br>
+[(Kubernetes) k8s Solution - Multi-Container Pods, Observability, POD Design](https://github.com/dlask913/TIL/blob/main/kubernetes/solutions-multi-container-pods-observability-pod-design.md)
