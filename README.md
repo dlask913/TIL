@@ -310,3 +310,6 @@
 
 **2025-02-04** <br>
 [(Kubernetes) k8s Solution - Multi-Container Pods, Observability, POD Design](https://github.com/dlask913/TIL/blob/main/kubernetes/solutions-multi-container-pods-observability-pod-design.md)
+
+**2025-02-05** <br>
+[(MySQL) MySQL 인덱스 활용](https://github.com/dlask913/TIL/blob/main/sql/mysql-index.md)
