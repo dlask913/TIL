@@ -313,3 +313,6 @@
 
 **2025-02-05** <br>
 [(MySQL) MySQL 인덱스 활용](https://github.com/dlask913/TIL/blob/main/sql/mysql-index.md)
+
+**2025-02-06** <br>
+[(Kubernetes) k8s State Persistence](https://github.com/dlask913/TIL/blob/main/kubernetes/volume-pv-pvc.md)
