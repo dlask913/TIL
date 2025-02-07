@@ -309,10 +309,13 @@
 [(Kubernetes) k8s Ingree Network and Network Policies](https://github.com/dlask913/TIL/blob/main/kubernetes/ingress-network-and-network-policies.md)
 
 **2025-02-04** <br>
-[(Kubernetes) k8s Solution - Multi-Container Pods, Observability, POD Design](https://github.com/dlask913/TIL/blob/main/kubernetes/solutions-multi-container-pods-observability-pod-design.md)
+[(Kubernetes) k8s Solutions - Multi-Container Pods, Observability, POD Design](https://github.com/dlask913/TIL/blob/main/kubernetes/solutions-multi-container-pods-observability-pod-design.md)
 
 **2025-02-05** <br>
 [(MySQL) MySQL 인덱스 활용](https://github.com/dlask913/TIL/blob/main/sql/mysql-index.md)
 
 **2025-02-06** <br>
 [(Kubernetes) k8s State Persistence](https://github.com/dlask913/TIL/blob/main/kubernetes/volume-pv-pvc.md)
+
+**2025-02-07** <br>
+[(Kubernetes) k8s Solutions - Service and Networking, State Persistence](https://github.com/dlask913/TIL/blob/main/kubernetes/solutions-service-networking-state-persistence.md)
