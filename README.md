@@ -319,3 +319,6 @@
 
 **2025-02-07** <br>
 [(Kubernetes) k8s Solutions - Service and Networking, State Persistence](https://github.com/dlask913/TIL/blob/main/kubernetes/solutions-service-networking-state-persistence.md)
+
+**2025-02-08** <br>
+[(MySQL) MySQL 실행 계획](https://github.com/dlask913/TIL/blob/main/sql/mysql-optimizer-explain.md)
