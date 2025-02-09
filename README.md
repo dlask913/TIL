@@ -322,3 +322,6 @@
 
 **2025-02-08** <br>
 [(MySQL) MySQL 실행 계획](https://github.com/dlask913/TIL/blob/main/sql/mysql-optimizer-explain.md)
+
+**2025-02-09** <br>
+[(MySQL) MySQL SQL 튜닝](https://github.com/dlask913/TIL/blob/main/sql/mysql-sql-tuning.md)
