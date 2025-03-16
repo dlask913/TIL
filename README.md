@@ -328,3 +328,6 @@
 
 **2025-03-15** <br>
 [(Spring) 로그 추적기](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-trace-logger.md)
+
+**2025-03-16** <br>
+[(Spring) ThreadLocal 로 동시성 문제 해결하기](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-threadlocal.md)
