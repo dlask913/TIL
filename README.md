@@ -331,3 +331,6 @@
 
 **2025-03-16** <br>
 [(Spring) ThreadLocal 로 동시성 문제 해결하기](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-threadlocal.md)
+
+**2025-03-18** <br>
+[(Spring) 템플릿 메서드 패턴](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-template-method-pattern.md)
