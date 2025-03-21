@@ -334,3 +334,6 @@
 
 **2025-03-18** <br>
 [(Spring) 템플릿 메서드 패턴](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-template-method-pattern.md)
+
+**2025-03-21** <br>
+[(Spring) 전략 패턴과 템플릿 콜백 패턴](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-strategy-and-templatecallback.md)
