@@ -337,3 +337,6 @@
 
 **2025-03-21** <br>
 [(Spring) 전략 패턴과 템플릿 콜백 패턴](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-strategy-and-templatecallback.md)
+
+**2025-03-22** <br>
+[(Spring) 프록시 패턴과 데코레이터 패턴](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-proxy-and-decorator-pattern.md)
