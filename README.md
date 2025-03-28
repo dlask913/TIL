@@ -340,3 +340,6 @@
 
 **2025-03-22** <br>
 [(Spring) 프록시 패턴과 데코레이터 패턴](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-proxy-and-decorator-pattern.md)
+
+**2025-03-28** <br>
+[(Spring) 인터페이스 프록시와 구현체 프록시](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-interfaceproxy-concreteproxy.md)
