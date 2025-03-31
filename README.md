@@ -343,3 +343,6 @@
 
 **2025-03-28** <br>
 [(Spring) 인터페이스 프록시와 구현체 프록시](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-interfaceproxy-concreteproxy.md)
+
+**2025-03-31** <br>
+[(Spring) JDK 동적 프록시와 CGLIB](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-jdkdynamicproxy-cglib.md)
