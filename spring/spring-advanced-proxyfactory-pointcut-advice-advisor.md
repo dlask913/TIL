@@ -22,7 +22,7 @@ public interface MethodInterceptor extends Interceptor {
 }
 ```
 - 특정 조건에 맞을 때만 프록시 로직을 적용하는 필터링 기능을 적용하기 위해서는 `PointCut` 을 사용한다.
-- 사용 흐름
+- 사용 흐름  <br>
 ![image](https://github.com/user-attachments/assets/47244509-7836-4b71-859a-d2269e881111)
 
 <br>
@@ -109,7 +109,8 @@ ServiceInterface proxy = (ServiceInterface) proxyFactory.getProxy();
 - 포인트컷 (PointCut) : 어디에 부가 기능을 적용할 지 안할 지 판단하는 필터링 로직
 - 어드바이스 (Advice) : 프록시가 호출하는 부가 기능 ( 프록시 로직 )
 - 어드바이저 (Advisor) : 하나의 포인트컷과 하나의 어드바이스를 가지고 있는 것
-- 프록시 팩토리와 어드바이저 관계
+- 프록시 팩토리와 어드바이저 관계 <br>
+
 ![image](https://github.com/user-attachments/assets/31143776-4196-499a-b650-249d38090cc8)
 
 <br>
