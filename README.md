@@ -346,3 +346,6 @@
 
 **2025-03-31** <br>
 [(Spring) JDK 동적 프록시와 CGLIB](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-jdkdynamicproxy-cglib.md)
+
+**2025-04-02** <br>
+[(Spring) 프록시 팩토리와 PointCut, Advice, Advisor](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-proxyfactory-pointcut-advice-advisor.md)
