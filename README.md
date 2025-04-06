@@ -349,3 +349,6 @@
 
 **2025-04-02** <br>
 [(Spring) 프록시 팩토리와 PointCut, Advice, Advisor](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-proxyfactory-pointcut-advice-advisor.md)
+
+**2025-04-06** <br>
+[(Spring) 빈 후처리기](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-beanpostprocessor.md)
