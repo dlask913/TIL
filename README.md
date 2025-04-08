@@ -352,3 +352,6 @@
 
 **2025-04-06** <br>
 [(Spring) 빈 후처리기](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-beanpostprocessor.md)
+
+**2025-04-08** <br>
+[(Spring) 스프링이 제공하는 빈 후처리기](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-autoproxycreator.md)
