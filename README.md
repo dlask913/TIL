@@ -358,3 +358,6 @@
 
 **2025-04-13** <br>
 [(Spring) @Aspect AOP](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-aspect-aop.md)
+
+**2025-04-14** <br>
+[(Spring) 스프링 AOP](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-spring-aop.md)
