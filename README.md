@@ -364,3 +364,6 @@
 
 **2025-04-18** <br>
 [(Spring) 스프링 AOP 구현](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-spring-aop-practice.md)
+
+**2025-04-26** <br>
+[(Spring) 스프링 AOP 포인트컷](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-spring-aop-pointcut.md)
