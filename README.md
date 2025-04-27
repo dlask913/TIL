@@ -367,3 +367,6 @@
 
 **2025-04-26** <br>
 [(Spring) 스프링 AOP 포인트컷](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-spring-aop-pointcut.md)
+
+**2025-04-27** <br>
+[(Spring) 스프링 AOP 포인트컷 파라미터 전달](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-spring-aop-pointcut-parameter.md)
