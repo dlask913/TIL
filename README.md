@@ -370,3 +370,6 @@
 
 **2025-04-27** <br>
 [(Spring) 스프링 AOP 포인트컷 파라미터 전달](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-spring-aop-pointcut-parameter.md)
+
+**2025-04-29** <br>
+[(Spring) 프록시와 내부 호출](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-proxy-and-internal-call.md)
