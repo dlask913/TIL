@@ -373,3 +373,6 @@
 
 **2025-04-29** <br>
 [(Spring) 프록시와 내부 호출](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-proxy-and-internal-call.md)
+
+**2025-04-30** <br>
+[(Spring) 프록시 기술과 한계](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-proxy-limitations-and-solutions.md)
