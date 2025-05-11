@@ -376,3 +376,6 @@
 
 **2025-04-30** <br>
 [(Spring) 프록시 기술과 한계](https://github.com/dlask913/TIL/blob/main/spring/spring-advanced-proxy-limitations-and-solutions.md)
+
+**2025-05-11** <br>
+[(Spring) 스프링 컨테이너와 스프링 빈](https://github.com/dlask913/TIL/blob/main/spring/spring-container-and-bean.md)
