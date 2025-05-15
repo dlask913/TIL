@@ -382,3 +382,6 @@
 
 **2025-05-14** <br>
 [(Spring) 싱글톤 컨테이너](https://github.com/dlask913/TIL/blob/main/spring/spring-singleton-container.md)
+
+**2025-05-15** <br>
+[(Spring) 컴포넌트 스캔](https://github.com/dlask913/TIL/blob/main/spring/spring-componentscan.md)
