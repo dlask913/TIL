@@ -388,3 +388,6 @@
 
 **2025-06-14** <br>
 [(Spring) JdbcTemplate](https://github.com/dlask913/TIL/blob/main/spring/spring-db-jdbctemplate.md)
+
+**2025-06-15** <br>
+[(Spring) 테스트 데이터 롤백과 임베디드 모드](https://github.com/dlask913/TIL/blob/main/spring/spring-db-test.md)
