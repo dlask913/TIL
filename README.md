@@ -394,3 +394,6 @@
 
 **2025-06-21** <br>
 [(Spring) MyBatis](https://github.com/dlask913/TIL/blob/main/spring/spring-db-mybatis.md)
+
+**2025-06-22** <br>
+[(Spring) JPA](https://github.com/dlask913/TIL/blob/main/spring/spring-db-jpa.md)
