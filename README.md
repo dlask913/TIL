@@ -397,3 +397,6 @@
 
 **2025-06-22** <br>
 [(Spring) JPA](https://github.com/dlask913/TIL/blob/main/spring/spring-db-jpa.md)
+
+**2025-07-05** <br>
+[(Spring) 스프링 트랜잭션 이해](https://github.com/dlask913/TIL/blob/main/spring/spring-db-spring-transaction.md)
