@@ -400,3 +400,6 @@
 
 **2025-07-05** <br>
 [(Spring) 스프링 트랜잭션 이해](https://github.com/dlask913/TIL/blob/main/spring/spring-db-spring-transaction.md)
+
+**2025-07-10** <br>
+[(Spring) 스프링 트랜잭션 전파](https://github.com/dlask913/TIL/blob/main/spring/spring-db-transaction-propagation.md)
