@@ -403,3 +403,6 @@
 
 **2025-07-10** <br>
 [(Spring) 스프링 트랜잭션 전파](https://github.com/dlask913/TIL/blob/main/spring/spring-db-transaction-propagation.md)
+
+**2025-08-17** <br>
+[(spring) 스프링 부트 살펴보기 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/spring-boot-overview.md)
