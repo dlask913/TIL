@@ -406,3 +406,6 @@
 
 **2025-08-17** <br>
 [(spring) 스프링 부트 살펴보기 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/spring-boot-overview.md)
+
+**2025-08-28** <br>
+[(spring) 독립 실행형 서블릿 애플리케이션 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/standalone-servlet-application.md)
