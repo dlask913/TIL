@@ -409,3 +409,6 @@
 
 **2025-08-28** <br>
 [(spring) 독립 실행형 서블릿 애플리케이션 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/standalone-servlet-application.md)
+
+**2025-08-30** <br>
+[(spring) 독립 실행형 스프링 애플리케이션 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/standalone-spring-application.md)
