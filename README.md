@@ -415,3 +415,9 @@
 
 **2025-09-01** <br>
 [(spring) 스프링 부트 동작 원리 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/standalone-spring-application-2.md)
+
+**2025-09-06** <br>
+[(spring) 메타, 합성 애노테이션과 빈 오브젝트 구분 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/auto-configuration-application.md)
+
+**2025-09-08** <br>
+[(spring) 자동 구성 기반 애플리케이션 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/auto-configuration-application-2.md)
