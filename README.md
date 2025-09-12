@@ -422,5 +422,5 @@
 **2025-09-08** <br>
 [(spring) 자동 구성 기반 애플리케이션 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/auto-configuration-application-2.md)
 
-**2025-09-10** <br>
+**2025-09-10, 2025-09-12** <br>
 [(spring) 조건부 자동 구성 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/conditional-auto-configuration.md)
