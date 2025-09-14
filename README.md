@@ -424,3 +424,6 @@
 
 **2025-09-10, 2025-09-12** <br>
 [(spring) 조건부 자동 구성 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/conditional-auto-configuration.md)
+
+**2025-09-14** <br>
+[(spring) 외부 설정을 이용한 자동 구성 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/applying-environment-properties.md)
