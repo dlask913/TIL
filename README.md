@@ -430,3 +430,6 @@
 
 **2025-09-19** <br>
 [(spring) 외부 설정을 이용한 자동 구성 2 - private](https://github.com/dlask913/toby-spring-boot-lecture/blob/main/spring/externalized-configuration-with-auto-configuration.md)
+
+**2025-09-28** <br>
+[(llm) RAG 와 초기 환경 설정 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/rag-and-initial-environment-setup.md)
