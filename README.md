@@ -433,3 +433,6 @@
 
 **2025-09-28** <br>
 [(llm) RAG 와 초기 환경 설정 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/rag-and-initial-environment-setup.md)
+
+**2025-10-01** <br>
+[(llm) LangChain 과 Chroma 를 활용한 RAG 구성 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/rag-with-chroma.md)
