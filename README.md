@@ -436,3 +436,6 @@
 
 **2025-10-01** <br>
 [(llm) LangChain 과 Chroma 를 활용한 RAG 구성 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/rag-with-chroma.md)
+
+**2025-10-04** <br>
+[(llm) LangChain 과 Pinecone 를 활용한 RAG 구성 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/rag-with-pinecone.md)
