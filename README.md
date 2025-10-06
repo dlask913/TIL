@@ -439,3 +439,6 @@
 
 **2025-10-04** <br>
 [(llm) LangChain 과 Pinecone 를 활용한 RAG 구성 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/rag-with-pinecone.md)
+
+**2025-10-06** <br>
+[(llm) Streamlit 을 활용한 ChatBot 구현 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/chatbot-with-streamlit.md)
