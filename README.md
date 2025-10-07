@@ -442,3 +442,6 @@
 
 **2025-10-06** <br>
 [(llm) Streamlit 을 활용한 ChatBot 구현 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/chatbot-with-streamlit.md)
+
+**2025-10-07** <br>
+[(llm) Few Shot 을 활용한 ChatBot 성능 개선 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/enhance-chatbot-with-fewshot.md)
