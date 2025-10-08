@@ -445,3 +445,6 @@
 
 **2025-10-07** <br>
 [(llm) Few Shot 을 활용한 ChatBot 성능 개선 - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/enhance-chatbot-with-fewshot.md)
+
+**2025-10-08** <br>
+[(llm) LangSmith 를 활용한 LLM Evaluation - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/llm-evaluation.md)
