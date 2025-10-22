@@ -448,3 +448,6 @@
 
 **2025-10-08** <br>
 [(llm) LangSmith 를 활용한 LLM Evaluation - private](https://github.com/dlask913/RAG-LLM-Application-lecture/blob/main/llm-app/llm-evaluation.md)
+
+**2025-10-22** <br>
+[(sql) 내부 조인과 외부 조인](https://github.com/dlask913/TIL/blob/main/sql/db-inner-outer-join.md)
