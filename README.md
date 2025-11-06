@@ -451,3 +451,6 @@
 
 **2025-10-22** <br>
 [(sql) 내부 조인과 외부 조인](https://github.com/dlask913/TIL/blob/main/sql/db-inner-outer-join.md)
+
+**2025-11-06** <br>
+[(sql) 서브쿼리](https://github.com/dlask913/TIL/blob/main/sql/db-subquery.md)
