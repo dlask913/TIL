@@ -454,3 +454,6 @@
 
 **2025-11-06** <br>
 [(sql) 서브쿼리](https://github.com/dlask913/TIL/blob/main/sql/db-subquery.md)
+
+**2025-11-10** <br>
+[(sql) UNION 과 UNION ALL](https://github.com/dlask913/TIL/blob/main/sql/db-union-and-union-all.md)
