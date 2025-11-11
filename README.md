@@ -457,3 +457,6 @@
 
 **2025-11-10** <br>
 [(sql) UNION 과 UNION ALL](https://github.com/dlask913/TIL/blob/main/sql/db-union-and-union-all.md)
+
+**2025-11-11** <br>
+[(sql) CASE 문](https://github.com/dlask913/TIL/blob/main/sql/db-case.md)
