@@ -460,3 +460,6 @@
 
 **2025-11-11** <br>
 [(sql) CASE 문](https://github.com/dlask913/TIL/blob/main/sql/db-case.md)
+
+**2025-11-12** <br>
+[(llm) LangGraph 구성 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/1.langchain_vs_langgraph.ipynb)
