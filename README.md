@@ -463,3 +463,6 @@
 
 **2025-11-12** <br>
 [(llm) LangGraph 구성 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/1.langchain_vs_langgraph.ipynb)
+
+**2025-11-23** <br>
+[(llm) 간단한 Retrieval Agent 구현 및 PDF 전처리 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/2.retrieval.ipynb)
