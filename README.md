@@ -466,3 +466,6 @@
 
 **2025-11-23** <br>
 [(llm) 간단한 Retrieval Agent 구현 및 PDF 전처리 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/2.retrieval.ipynb)
+
+**2025-11-24** <br>
+[(sql) 인덱스](https://github.com/dlask913/TIL/blob/main/sql/db-index.md)
