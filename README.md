@@ -469,3 +469,9 @@
 
 **2025-11-24** <br>
 [(sql) 인덱스](https://github.com/dlask913/TIL/blob/main/sql/db-index.md)
+
+**2025-11-25** <br>
+[(llm) Agentic RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/3.rewrite.ipynb)
+
+**2025-11-30** <br>
+[(llm) 생성된 답변을 여러번 검증하는 Self RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/4.self-rag.ipynb)
