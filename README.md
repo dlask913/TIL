@@ -478,3 +478,6 @@
 
 **2025-12-02** <br>
 [(sql) 인덱스 2](https://github.com/dlask913/TIL/blob/main/sql/db-index-2.md)
+
+**2025-12-04** <br>
+[(llm) 웹 검색을 지원하는 Corrective RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/5.corrective-rag.ipynb)
