@@ -481,3 +481,6 @@
 
 **2025-12-04** <br>
 [(llm) 웹 검색을 지원하는 Corrective RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/5.corrective-rag.ipynb)
+
+**2025-12-06** <br>
+[(llm) LangGraph Agent 를 Node 로 활용하기 (SubGraph) - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/6.adaptive-rag.ipynb)
