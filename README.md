@@ -487,3 +487,6 @@
 
 **2025-12-07** <br>
 [(llm) 병렬 처리를 통한 효율 개선 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/7.parallel-agent.ipynb)
+
+**2025-12-08** <br>
+[(llm) Multi-Agent 와 RouteLLM - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/8.multi-agent.ipynb)
