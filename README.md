@@ -462,31 +462,34 @@
 [(sql) CASE 문](https://github.com/dlask913/TIL/blob/main/sql/db-case.md)
 
 **2025-11-12** <br>
-[(llm) LangGraph 구성 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/1.langchain_vs_langgraph.ipynb)
+[(llm) LangGraph 구성 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-2/1.langchain_vs_langgraph.ipynb)
 
 **2025-11-23** <br>
-[(llm) 간단한 Retrieval Agent 구현 및 PDF 전처리 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/2.retrieval.ipynb)
+[(llm) 간단한 Retrieval Agent 구현 및 PDF 전처리 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-2/2.retrieval.ipynb)
 
 **2025-11-24** <br>
 [(sql) 인덱스](https://github.com/dlask913/TIL/blob/main/sql/db-index.md)
 
 **2025-11-25** <br>
-[(llm) Agentic RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/3.rewrite.ipynb)
+[(llm) Agentic RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-2/3.rewrite.ipynb)
 
 **2025-11-30** <br>
-[(llm) 생성된 답변을 여러번 검증하는 Self RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/4.self-rag.ipynb)
+[(llm) 생성된 답변을 여러번 검증하는 Self RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-2/4.self-rag.ipynb)
 
 **2025-12-02** <br>
 [(sql) 인덱스 2](https://github.com/dlask913/TIL/blob/main/sql/db-index-2.md)
 
 **2025-12-04** <br>
-[(llm) 웹 검색을 지원하는 Corrective RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/5.corrective-rag.ipynb)
+[(llm) 웹 검색을 지원하는 Corrective RAG 구현 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-2/5.corrective-rag.ipynb)
 
 **2025-12-06** <br>
-[(llm) LangGraph Agent 를 Node 로 활용하기 (SubGraph) - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/6.adaptive-rag.ipynb)
+[(llm) LangGraph Agent 를 Node 로 활용하기 (SubGraph) - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-2/6.adaptive-rag.ipynb)
 
 **2025-12-07** <br>
-[(llm) 병렬 처리를 통한 효율 개선 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/7.parallel-agent.ipynb)
+[(llm) 병렬 처리를 통한 효율 개선 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-2/7.parallel-agent.ipynb)
 
 **2025-12-08** <br>
-[(llm) Multi-Agent 와 RouteLLM - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/8.multi-agent.ipynb)
+[(llm) Multi-Agent 와 RouteLLM - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-2/8.multi-agent.ipynb)
+
+**2025-12-14** <br>
+[(llm) Langchain 에서 도구(tool) 활용 방법 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-3/2._tools_intro.ipynb)
