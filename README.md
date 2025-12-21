@@ -493,3 +493,12 @@
 
 **2025-12-14** <br>
 [(llm) Langchain 에서 도구(tool) 활용 방법 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-3/2._tools_intro.ipynb)
+
+**2025-12-15** <br>
+[(llm) LangGraph 에서 tool 활용 방법 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-3/3._langgraph_tools.ipynb)
+
+**2025-12-19** <br>
+[(llm) LangGraph 내장 도구 활용 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-3/langgraph-internal-tools.ipynb)
+
+**2025-12-21** <br>
+[(devops) Logstash 기반 Elasticsearch 로그 수집](https://github.com/dlask913/TIL/blob/main/devops/log-logstash-and-elasticsearch.md)
