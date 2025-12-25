@@ -1,5 +1,5 @@
 ## (devops) 로그 수집
-> LogStash 를 통해 Elasticsearch 로 로그 남기기
+> LogStash 를 통해 Elasticsearch 로 로그 남기기, kibana 를 이용한 데이터 시각화
 
 <br>
 
@@ -72,6 +72,24 @@ docker network create elastic-network
 docker network connect elastic-network elasticsearch
 docker network connect elastic-network logstash
 ```
+
+<br>
+
+## Kibana 를 이용한 로그 시각화
+#### 1. kibana 실행 ( windows 기준 )
+```bash
+docker run -d --name kibana --network elastic-network -p 5601:5601 -e "ELASTICSEARCH_HOSTS=http://elasticsearch:9200" kibana:8.10.1
+```
+
+#### 2. Data View 생성
+- localhost:5601 접속하여 Discover 메뉴 > Create Data View
+- 사전에 ES 로그 쌓기 진행 필요
+- 필드 작성 후 
+<img width="1617" height="801" alt="Image" src="https://github.com/user-attachments/assets/8112f244-31c6-4c63-a16e-748f409aef91" />
+
+#### 3. 대시보드 생성 및 저장
+- 원하는 지표에 차트 골라서 저장
+<img width="1855" height="789" alt="Image" src="https://github.com/user-attachments/assets/6f8d008b-d998-436b-aa9e-b90ab6f40041" />
 
 <br>
 
