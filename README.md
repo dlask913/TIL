@@ -505,3 +505,6 @@
 
 **2025-12-22** <br>
 [(llm) Agent 히스토리 관리 방법 - private](https://github.com/dlask913/AI-Agent-with-LangGraph/blob/main/section-3/5.chat-history.ipynb)
+
+**2026-03-15** <br>
+[(os) 리눅스 성능 분석을 위한 명령어 1](https://github.com/dlask913/TIL/blob/main/devops/linux-command-1.md)
