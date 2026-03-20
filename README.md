@@ -511,3 +511,6 @@
 
 **2026-03-18** <br>
 [(os) 리눅스 성능 분석을 위한 명령어 2](https://github.com/dlask913/TIL/blob/main/devops/linux-command-2.md)
+
+**2026-03-20** <br>
+[(os) 리눅스 성능 분석을 위한 명령어 3](https://github.com/dlask913/TIL/blob/main/devops/linux-command-3.md)
