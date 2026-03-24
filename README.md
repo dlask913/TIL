@@ -517,3 +517,6 @@
 
 **2026-03-23** <br>
 [(os) 리눅스 성능 분석을 위한 명령어 및 실제 사례 1](https://github.com/dlask913/TIL/blob/main/devops/linux-command-and-practical-case-1.md)
+
+**2026-03-24** <br>
+[(os) 리눅스 성능 분석 실제 사례 2](https://github.com/dlask913/TIL/blob/main/devops/linux-practical-case-2.md)
