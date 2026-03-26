@@ -13,7 +13,7 @@
 $ tcpdump -vvv -nn -A -G 3600 -w /var/log/tcpdump/$(hostname)_%Y%m%d-%H%M%S.pcap
 # 3600 은 갱신되는 단위, 1시간에 1번씩
 ```
-- 문제 현상 : POST 요청 이후 POST 에 대한 응답을 받기 전에 FIN 패킷이 날라감
+- 문제 상황 : POST 요청 이후 POST 에 대한 응답을 받기 전에 FIN 패킷이 날라감
 - 원인 발견 : Read Timeout 보다 프로세싱 소요 시간이 더 길다 ( Read Timeout - 3초, 프로세싱 시간 - 5초)
 - 해결 : Read Timeout 6초로 변경 ( 프로세싱 시간 + 1초 ) or 프로세싱 시간 분석?
 
