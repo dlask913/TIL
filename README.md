@@ -523,3 +523,6 @@
 
 **2026-03-26** <br>
 [(os) 리눅스 성능 분석 실제 사례 3](https://github.com/dlask913/TIL/blob/main/devops/linux-practical-case-3.md)
+
+**2026-03-27** <br>
+[(os) 리눅스 성능 분석 실제 사례 4](https://github.com/dlask913/TIL/blob/main/devops/linux-practical-case-4.md)
