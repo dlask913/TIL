@@ -526,3 +526,9 @@
 
 **2026-03-27** <br>
 [(os) 리눅스 성능 분석 실제 사례 4](https://github.com/dlask913/TIL/blob/main/devops/linux-practical-case-4.md)
+
+**2026-04-07** <br>
+[(sql) 오라클 DDL DML](https://github.com/dlask913/oracle/blob/main/01-ddl-dml.md)
+
+**2026-04-10** <br>
+[(sql) 오라클 Retrieving](https://github.com/dlask913/oracle/blob/main/02-retrieve.md)
