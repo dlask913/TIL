@@ -528,7 +528,37 @@
 [(os) 리눅스 성능 분석 실제 사례 4](https://github.com/dlask913/TIL/blob/main/devops/linux-practical-case-4.md)
 
 **2026-04-07** <br>
-[(sql) 오라클 DDL DML](https://github.com/dlask913/oracle/blob/main/01-ddl-dml.md)
+[(oracle) 오라클 DDL DML](https://github.com/dlask913/oracle/blob/main/01-ddl-dml.md)
 
 **2026-04-10** <br>
-[(sql) 오라클 Retrieving](https://github.com/dlask913/oracle/blob/main/02-retrieve.md)
+[(oracle) 오라클 Retrieving](https://github.com/dlask913/oracle/blob/main/02-retrieve.md)
+
+**2026-04-12** <br>
+[(oracle) 오라클 Retrieving 2](https://github.com/dlask913/oracle/blob/main/03-single-row-functions.md)
+
+**2026-04-13** <br>
+[(oracle) 오라클 Retrieving 3](https://github.com/dlask913/oracle/blob/main/04-grouping-joining.md)
+
+**2026-04-15** <br>
+[(oracle) 오라클 아키텍처 개요](https://github.com/dlask913/oracle/blob/main/oracle-architecture.md)
+
+**2026-04-19** <br>
+[(oracle) 오라클 기본 이해](https://github.com/dlask913/oracle/blob/main/oracle-basic-understanding.md)
+
+**2026-04-20** <br>
+[(oracle) 오라클 메모리 구조](https://github.com/dlask913/oracle/blob/main/oracle-memory-structure.md)
+
+**2026-04-23** <br>
+[(oracle) 오라클 Shared Pool](https://github.com/dlask913/oracle/blob/main/oracle-shared-pool.md)
+
+**2026-04-25** <br>
+[(oracle) 오라클 Data Migration 방법](https://github.com/dlask913/oracle/blob/main/oracle-data-migration.md)
+
+**2026-04-26** <br>
+[(oracle) 오라클 Memory Usage 관리](https://github.com/dlask913/oracle/blob/main/oracle-memory-usage.md)
+
+**2026-04-29** <br>
+[(oracle) 오라클 Data Recovery](https://github.com/dlask913/oracle/blob/main/oracle-data-recovery.md)
+
+**2026-05-04** <br>
+[(oracle) 오라클 Shared Pool 2](https://github.com/dlask913/oracle/blob/main/oracle-shared-pool-2.md)
