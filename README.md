@@ -562,3 +562,6 @@
 
 **2026-05-04** <br>
 [(oracle) 오라클 Shared Pool 2](https://github.com/dlask913/oracle/blob/main/oracle-shared-pool-2.md)
+
+**2026-06-13** <br>
+[(aws) Detection - GuardDuty](https://github.com/dlask913/TIL/blob/main/scs/1-detection-guardduty.md)
