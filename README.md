@@ -565,3 +565,6 @@
 
 **2026-06-13** <br>
 [(aws) Detection - GuardDuty](https://github.com/dlask913/TIL/blob/main/scs/1-detection-guardduty.md)
+
+**2026-06-14** <br>
+[(aws) Detection - Security Hub](https://github.com/dlask913/TIL/blob/main/scs/1-detection-securityhub.md)
