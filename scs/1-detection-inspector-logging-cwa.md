@@ -60,5 +60,27 @@
 
 <br>
 
+
+### Troubleshooting
+#### 1. CW Agent fails to start
+- 설정 파일의 문제일 수 있으니 `/opt/aws/amazon-cloudwatch-agent/logs/configuration-validataion.log` 를 확인한다
+
+#### 2. Can't Find Metrics Collected by the CW Agent
+- 사용중인 네임스페이스가 CW Agent 인지 확인한다 ( 디폴트 네임스페이스로, 수동으로 변경 가능 )
+- `amazon-cloudwatch-agent.json` 설정 파일에 잘못된 내용은 없는지 확인한다
+
+#### 3. CloudWatch Agent Not Pushing Log Events
+- AWS 는 버그를 인지하고 상위 버전에서 패치하기 때문에 최신 버전으로 업데이트를 권장한다 
+- Secrity Groups, NACLS 등에서 Cloudwatch Logs endpoint 와 연결이가능한지 테스트 ( `logs.<region>.amazonaws.com` )
+- Account, Region, Log Group Configurations, IAM 권한 검토
+- 인스턴스 system time 이 올바르게 동기화 되었는지 확인
+
+#### Check CloudWatch Agent logs
+```
+/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log
+```
+
+<br>
+
 ## 참고
 [Ultimate AWS Certified Security Specialty [NEW 2026] SCS-C03](https://www.udemy.com/share/1084Uy3@vtr5jBSWAvNzuXvuNSDo7WChACAEgUkcrlE2b4Fcu_fDAjT1Rm9Amazz5GvnNTZtEQ==/)

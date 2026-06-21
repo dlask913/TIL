@@ -574,3 +574,6 @@
 
 **2026-06-16** <br>
 [(aws) Detection - Inspector, Logging, Unified CloudWatch Agent](https://github.com/dlask913/TIL/blob/main/scs/1-detection-inspector-logging-cwa.md)
+
+**2026-06-21** <br>
+[(aws) Detection - CloudWatch Logs, Alarms, Insights](https://github.com/dlask913/TIL/blob/main/scs/1-detection-cloudwatch-logs-alarms-insights.md)
