@@ -577,3 +577,6 @@
 
 **2026-06-21** <br>
 [(aws) Detection - CloudWatch Logs, Alarms, Insights](https://github.com/dlask913/TIL/blob/main/scs/1-detection-cloudwatch-logs-alarms-insights.md)
+
+**2026-06-23** <br>
+[(aws) Detection - EventBridge](https://github.com/dlask913/TIL/blob/main/scs/1-detection-eventbridge.md)
