@@ -581,5 +581,8 @@
 **2026-06-23** <br>
 [(aws) Detection - EventBridge](https://github.com/dlask913/TIL/blob/main/scs/1-detection-eventbridge.md)
 
-**2026-06-29** <br>
+**2026-06-29,30** <br>
 [(aws) Detection - CloudTrail](https://github.com/dlask913/TIL/blob/main/scs/1-detection-cloudtrail.md)
+
+**2026-07-01** <br>
+[(aws) Detection - Macie, S3 Event Notifications](https://github.com/dlask913/TIL/blob/main/scs/1-detection-macie-s3-notification.md)

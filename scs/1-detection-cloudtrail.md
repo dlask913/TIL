@@ -126,6 +126,21 @@ LIMIT 50;
 - CloudTrail Conole 에서 Athena table 를 직접 생성하고 S3 Bucket 위치를 지정한다
 ![image](https://d2908q01vomqb2.cloudfront.net/af3e133428b9e25c55bc59fe534248e6a0c0f17b/2023/04/13/Analyze-Connect-Activities-Figure-01.png)
 
+<br>
+
+## Monitoring Account Activity
+#### 1. AWS Config Configuration History
+- AWS Config Configuration Recorder 를 켜야한다
+
+#### 2. CloudTrail Event History
+- 지난 90일간의 API 이력을 검색할 수 있다
+- Filter by resource name, IAM user, ,.. 
+
+#### 3. CloudWatch Logs Insights
+- CloudTrail 에서 로그를 CloutWatch Logs  로 전달하도록 trail 을 별도 생성하고 설정해줘야 한다 
+
+#### 4. Athena Queries
+- CloudTrail 에서 로그를 S3 로 저장하도록 trail 을 설정하면 Athena 를 통해 쿼리할 수 있다 
 
 <br>
 
