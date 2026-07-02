@@ -586,3 +586,6 @@
 
 **2026-07-01** <br>
 [(aws) Detection - Macie, S3 Event Notifications](https://github.com/dlask913/TIL/blob/main/scs/1-detection-macie-s3-notification.md)
+
+**2026-07-02** <br>
+[(aws) Detection - VPC Flow Logs](https://github.com/dlask913/TIL/blob/main/scs/1-detection-vpc-flow-logs.md)
