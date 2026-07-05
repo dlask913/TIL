@@ -49,6 +49,39 @@
 - Traffic to the VPC router reserved IP address (e.g., 10.0.0.1 )
 - Traffic Between VPC endpoint ENI and Network Load balancer ENI
 
+<br>
+
+## VPC Network Access Analyzer
+- 서버, 데이터베이스 등이 어디랑 통신할 수 있고, 외부에서는 어떻게 내 자원으로 들어올 수 있는지 그 이동 경로를 가상으로 시뮬레이션해서 보여준다 
+- 분석하고 싶은 네트워크 접근 기준을 정의 (ex: identify publicly available resources)
+- 위에서 설정한 네트워크 보안 기준을 토대로 취약점을 찾아내어 해결하고 보안 정책이 잘 지켜지고 있음을 검증
+```
+ - Evaluate network access to resources in your VPCs (EC2, RDS, Aurora, OpenSearch, Redshift )
+ - Match against the configurations of your VPC reousrces (SG, NACL, NATGW, IGW .. )
+```
+- json 포맷으로 Network Access Scope 과 알고싶은 network security policy 조건을 정의한다  (e.g., detect public databases)
+```json
+{
+  "MatchPaths": [
+    {
+      "Source": {
+        "ResourceStatement": {
+          "ResourceTypes": ["AWS::EC2::InternetGateway"] 
+        }
+      },
+      "Destination": {
+        "ResourceStatement": {
+          "ResourceTypes": ["AWS::EC2::Instance"],
+          "TagFilters": [
+            { "Key": "Stage", "Value": "Production" },
+            { "Key": "Role", "Value": "DB" }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
 
 <br>
 

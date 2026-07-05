@@ -589,3 +589,6 @@
 
 **2026-07-02** <br>
 [(aws) Detection - VPC Flow Logs](https://github.com/dlask913/TIL/blob/main/scs/1-detection-vpc-flow-logs.md)
+
+**2026-07-05** <br>
+[(aws) Detection - Route 53, OpenSearch](https://github.com/dlask913/TIL/blob/main/scs/1-detection-route53-opensearch.md)
