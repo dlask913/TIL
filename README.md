@@ -592,3 +592,6 @@
 
 **2026-07-05** <br>
 [(aws) Detection - Route 53, OpenSearch](https://github.com/dlask913/TIL/blob/main/scs/1-detection-route53-opensearch.md)
+
+**2026-07-07** <br>
+[(aws) Incident Response - Compromised](https://github.com/dlask913/TIL/blob/main/scs/2-incident-response-compromised.md)
