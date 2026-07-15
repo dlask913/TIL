@@ -598,3 +598,6 @@
 
 **2026-07-09** <br>
 [(aws) Incident Response - EC2 Key Pairs](https://github.com/dlask913/TIL/blob/main/scs/2-incident-response-ec2-key-pairs.md)
+
+**2026-07-15** <br>
+[(aws) Incident Response - SSM](https://github.com/dlask913/TIL/blob/main/scs/2-incident-response-ssm.md)
