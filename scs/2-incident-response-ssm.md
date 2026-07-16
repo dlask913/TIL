@@ -1,5 +1,5 @@
 ## (aws) Incident Response - AWS Systems Manager
-> Features, How Systems Manager Works, Resource Groups, Run Command, Documents, Automation
+> Features, How Systems Manager Works, Resource Groups, Run Command, Documents, Automation, Parameter Store, Inventory, State Manager
 
 <br>
 
@@ -73,6 +73,82 @@
 - Amazon EventBridge 를 통한 이벤트 트리거 실행
 - Maintenance Windows 설정을 통한 스케줄 기반 실행
 - AWS Config 규칙 위반 시 Remediation를 통한 실행
+
+<br>
+
+
+### Parameter Store
+- configuration 과 secrets 에 대한 Secure storage
+- KMS 를 사용하여 끊김없는 암호화 (Optional)
+- Serverless, scalable, durable, easy SDK
+- configuration 과 secret 에 대한 버전 관리 가능
+- IAM 권한을 체크하여 보안 강화
+- Eventbridge 를 통한 알림
+- Cloudformation 과의 통합
+- Standard 와 Advanced 티어가 있으며 Advanced 는 비용이 발생한다
+#### 계층 구조
+```
+- /my-department/
+  - my-app/
+    -  dev/
+      - db-url
+	  - db-password
+    - prod/ 
+	..
+```
+- API 호출을 통해 사용 가능 ( ex> prod/payment-service/db/username ) -> Lambda 사용 가능
+- IAM 정책을 작성할 때 경로 단위로 접근 제어 가능
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:GetParametersByPath",
+                "ssm:GetParameter"
+            ],
+            "Resource": "arn:aws:ssm:ap-northeast-2:123456789012:parameter/dev/*"
+        }
+    ]
+}
+```
+#### Parameter Policies (advanced 만 가능)
+- 패스워드와 같은 민감한 데이터의 강제 업데이트나 삭제를 유도하기 위해, 파라미터에 유효 기간(TTL)을 지정할 수 있다
+- 한 번에 여러가지 정책을 할당할 수 있다 (ex> Expiration, ExpirationNotification, NoChangeNotification)
+```json
+{
+  "Type": "NoChangeNotification",
+  "Version": "1.0",
+  "Attributes": {
+    "After": "20",
+    "Unit": "Days"
+  }
+}
+```
+
+<br>
+
+### Inventory
+- EC2, On-premises 인스턴스에 대한 metadata 수집
+- ex> installed software, OS drivers, configurations, installed updates, running services ..
+- AWS Console 이나 S3 에서 Athena 로 쿼리하거나 QuickSight 로 시각화하여 데이터를 볼 수 있다
+- metadata 수집 주기를 정할 수 있다 (minutes, hours, days)
+- 여러 AWS accounts 와 regions 으로부터 데이터를 쿼리할 수 있다
+- 커스텀 inventory 를 생성할 수 있다 (e.g., rack location of each managed instance)
+
+<br>
+
+### State Manager
+- EC2, on-premises 인스턴스의 상태를 정의한 대로 일관되게 유지해주는 자동화 구성 관리 서비스
+- Use cases : bootstrap instances with software, patch OS/software updated on a schedule ..
+- 정해진 주기에 맞춰 자동 실행
+- State Manager Association -> 예약 작업 설정
+```
+-  무엇을 실행할 것인가? (Document)
+- 어떤 서버에 적용할 것인가? (Target)
+- 언제 실행할 것인가? (Schedule) 
+```
 
 <br>
 
