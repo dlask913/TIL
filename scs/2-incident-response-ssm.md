@@ -152,5 +152,87 @@
 
 <br>
 
+
+### Patch Manager
+```
+[ EC2 / 온프레미스 서버 ] 
+       │ (태그 부여: Key="Patch Group", Value="Production-Windows")
+       ▼
+  [ Patch Group ] ("Production-Windows")
+       │ (등록/매핑)
+       ▼
+[ Patch Baseline ] (예: "릴리스 7일 후 보안 패치 자동 승인" 규칙)
+```
+- SSM 에이전트가 설치되어 있고 Systems Maanger 가 제어할 수 있도록 IAM 권한이 올바르게 설정된, 관리형 인스턴스의 패치 프로세스를 자동화한다 
+- OS updates, application updates, security updates 등 지원
+- EC2 인스턴스와 온프레미스 서버 모두 지원
+- Linux, macOS, Windows 지원
+- 필요할 때 즉시 패치하거나 (on-demand) 유지관리 창 (Maintenace Window) 를 사용하여 예약된 일정에 따라 패치한다 
+- 인스턴스를 스캔하여 누락된 패치 정보를 담은 patch compliance report 를 생성한다 
+- patch complicance report 를 S3 로 전송할 수 있다 
+- **Patch Baseline** 을 활용하여 어떤 패치를 설치하고 걸러낼지 정의한다
+- **Patch Group** 으로 인스턴스들을 묶어 어떤 서버에 어떤 패치 기준서를 적용할 지 매핑할 수 있다 ( 인스턴스는 Patch Group 이라는 태그 키로 정의해야하며, 하나의 패치 그룹에만 속할 수 있다 )
+
+#### Pre-Defined Patch Baseline
+- AWS 가 직접 만들고 관리하며 사용자가 내용을 바꿀 수 없는 기본 제공 패치 규칙
+- `AWS-RunPatchBaseline` (SSM 문서) 은 Linux, macOS, Windows Server 의 운영체제 패치와 애플리케이션 패치를 모두 적용한다
+
+#### Custom Patch Baseline
+- 규칙을 처음부터 끝까지 직접 커스텀하는 패치 규칙
+- 자신만의 패치 기준서를 생성하고 어떤 패치를 자동 승인할지 선택한다. 
+- 운영 체제, 허용된 패치(화이트리스트), 거부된 패치(블랙리스트) 등을 지정한다
+- 기본적으로 Linux 인스턴스들은 OS 벤더가 제공하는 기본 원격 저장소나 AWS 가 미러링해둔 기본 Repo 에 접속하는데 인터넷 연결이 차단된 **프라이빗 서브넷 환경에서는 사설 저장소를 바라보도록** 할 수 있다
+
+#### 패치 작업 프로세스
+1. 패치 명령 : AWS Console(수동 클릭), AWS SDK(코드 호출), Maintenance Windows(예약된 일정) 중 하나를 통해 인스턴스들에 대한 패치 작업 시작 명령
+2. Run command - Rate Control : 실행할 지침서인 AWS-RunPatchBaseline 문서 장착, Rate Control 적용으로 대상 인스턴스를 한 번에 다운시키지 않도록 동시 실행할 최대 서버 대수나 퍼센트를 계산하여 순차적으로 명령을 전달할 준비
+3. 대상 인스턴스로 명령 송신 : 규칙에 맞는 인스턴스(with SSM agent)들에게 명령 송신
+4. 인스턴스의 자기 상태(태그) 확인
+5. Patch Manager 에게 매핑 규칙 쿼리
+6. 패치 기준서(Patch Baseline ID) 최종 매칭
+7. 지침에 따른 패치 스캔 및 설치 (Execution)
+![image](https://docs.aws.amazon.com/ko_kr/systems-manager/latest/userguide/images/patch-groups-how-it-works.png)
+
+<br>
+
+### Session Manager
+- EC2 와 온프레미스 서버에서 secure shell 을 실행할 수 있게 한다
+- AWS Console, AWS CLI, or Session Manager SDK 를 통한 접속
+- SSH, bastion hosts, SSH keys 가 필요없다 (인바운드 포트를 전부 닫아두어도 작동)
+- Linux, macOS, Windows 를 지원한다
+- 인스턴스 접속 및 실행한 명령어들을 로그로 남긴다
+- Session log data 는 S3 나 Cloudwatch Logs 로 보낼 수 있다
+- CloudTrail can intercept StartSession events
+
+#### IAM 권한 및 통제 방식
+- 어떤 사용자/그룹이 Session Manager 에 접근할 수 있는지, 어떤 인스턴스에 접속할 수 있는지 제어
+```json
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:StartSession"
+            ],
+            "Resource": [
+                "arn:aws:ec2:*:*:instance/*"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "aws:ResourceTag/Environment": "Dev"
+                }
+            }
+        },
+```
+- 태그를 사용하여 특정 EC2 인스턴스에 대한 접근만 제한할 수 있다
+- SSM 에 접근하는 권한 외에도 S3 및 CloudWatch 에 로그를 기록할 수 있는 권한이 필요하다
+- 선택적으로, 사용자가 세션 내에서 실행할 수 있는 명령어를 제한할 수 있다 
+
+#### SSH vs SSM Session Manager
+- SSM Session Manager 를 사용하면 인바운드 규칙 설정은 필요없는데 EC2 에 SSM Agent 가 설치되어 있어야 하고 user 에게 올바른 IAM Permissions 을 부여하여 Session Manager 를 통해 EC2 에 접속하도록 한다
+- 로그는 S3 나 CloudWatch 로 보내진다
+
+<br>
+
 ## 참고
 [Ultimate AWS Certified Security Specialty [NEW 2026] SCS-C03](https://www.udemy.com/share/1084Uy3@vtr5jBSWAvNzuXvuNSDo7WChACAEgUkcrlE2b4Fcu_fDAjT1Rm9Amazz5GvnNTZtEQ==/)
