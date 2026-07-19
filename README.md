@@ -601,3 +601,6 @@
 
 **2026-07-15** <br>
 [(aws) Incident Response - SSM](https://github.com/dlask913/TIL/blob/main/scs/2-incident-response-ssm.md)
+
+**2026-07-19** <br>
+[(aws) Infrastructure Security - Bastion Hosts, NATGW, VPN](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-bastion-nat-vpn.md)
