@@ -604,3 +604,6 @@
 
 **2026-07-19** <br>
 [(aws) Infrastructure Security - Bastion Hosts, NATGW, VPN](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-bastion-nat-vpn.md)
+
+**2026-07-22** <br>
+[(aws) Infrastructure Security - VPC Peering, DNS Resolution in VPC](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-vpc-peering-dns-resolution.md)
