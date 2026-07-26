@@ -607,3 +607,6 @@
 
 **2026-07-22** <br>
 [(aws) Infrastructure Security - VPC Peering, DNS Resolution in VPC](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-vpc-peering-dns-resolution.md)
+
+**2026-07-26** <br>
+[(aws) Infrastructure Security - VPC Endpoints](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-vpc-endpoints.md)
