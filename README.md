@@ -610,3 +610,6 @@
 
 **2026-07-26** <br>
 [(aws) Infrastructure Security - VPC Endpoints](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-vpc-endpoints.md)
+
+**2026-07-27** <br>
+[(aws) Infrastructure Security - PrivateLink, SG, NACL](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-privatelink-sg-nacl.md)
