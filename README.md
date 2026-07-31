@@ -616,3 +616,6 @@
 
 **2026-07-30** <br>
 [(aws) Infrastructure Security - Transit Gateway, Direct Connect](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-tgw-dx.md)
+
+**2026-07-31** <br>
+[(aws) Infrastructure Security - Cloudfront](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-cloudfront.md)
