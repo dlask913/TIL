@@ -619,3 +619,6 @@
 
 **2026-07-31,08-02** <br>
 [(aws) Infrastructure Security - Cloudfront](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-cloudfront.md)
+
+**2026-08-03** <br>
+[(aws) Infrastructure Security - WAF, Shield, Firewall Manager](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-waf-shield-firewall-manager.md)
