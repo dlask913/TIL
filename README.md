@@ -622,3 +622,6 @@
 
 **2026-08-03** <br>
 [(aws) Infrastructure Security - WAF, Shield, Firewall Manager](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-waf-shield-firewall-manager.md)
+
+**2026-08-05** <br>
+[(aws) Infrastructure Security - API Gateway](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-api-gateway.md)
