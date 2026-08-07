@@ -625,3 +625,6 @@
 
 **2026-08-05** <br>
 [(aws) Infrastructure Security - API Gateway](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-api-gateway.md)
+
+**2026-08-07** <br>
+[(aws) Infrastructure Security - Route53(DNSSEC), Network Firewall](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-dnssec-network-firewall.md)
