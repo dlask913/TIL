@@ -628,3 +628,6 @@
 
 **2026-08-07** <br>
 [(aws) Infrastructure Security - Route53(DNSSEC), Network Firewall](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-dnssec-network-firewall.md)
+
+**2026-08-09** <br>
+[(aws) Infrastructure Security - IAM Policy](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-iam-policy.md)
