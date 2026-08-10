@@ -631,3 +631,6 @@
 
 **2026-08-09** <br>
 [(aws) Infrastructure Security - IAM Policy](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-iam-policy.md)
+
+**2026-08-10** <br>
+[(aws) Infrastructure Security - IAM Policy 2](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-iam-policy-2.md)
