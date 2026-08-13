@@ -1,4 +1,4 @@
-## (aws) Infrastructure Security - IAM Policy 2
+## (aws) Identity and Access Management - IAM Policy 2
 > IAM Permission Boundaries, IAM Evaluation Logic, IAM Roles vs Resource-Based Policies
 
 <br>

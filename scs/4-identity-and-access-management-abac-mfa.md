@@ -1,4 +1,4 @@
-## (aws) Infrastructure Security - ABAC, MFA
+## (aws) Identity and Access Management - ABAC, MFA
 > Attribute-Based Access Control, ABAC vs RBAC
 
 <br>

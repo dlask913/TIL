@@ -1,4 +1,4 @@
-## (aws) Infrastructure Security - IAM Policy 3
+## (aws) Identity and Access Management - IAM Policy 3
 > IAM Credentials Report, Roles for Services, Roles Anywhere, Trust Policies, Security Tools, Access Analyzer
 
 <br>

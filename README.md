@@ -630,13 +630,13 @@
 [(aws) Infrastructure Security - Route53(DNSSEC), Network Firewall](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-dnssec-network-firewall.md)
 
 **2026-08-09** <br>
-[(aws) Infrastructure Security - IAM Policy](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-iam-policy.md)
+[(aws) Identity and Access Management - IAM Policy](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-iam-policy.md)
 
 **2026-08-10** <br>
-[(aws) Infrastructure Security - IAM Policy 2](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-iam-policy-2.md)
+[(aws) Identity and Access Management - IAM Policy 2](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-iam-policy-2.md)
 
 **2026-08-11** <br>
-[(aws) Infrastructure Security - ABAC, IAM MFA](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-abac-mfa.md)
+[(aws) Identity and Access Management - ABAC, IAM MFA](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-abac-mfa.md)
 
 **2026-08-12** <br>
-[(aws) Infrastructure Security - IAM Policy 3](https://github.com/dlask913/TIL/blob/main/scs/3-infrastructure-security-iam-policy-3.md)
+[(aws) Identity and Access Management - IAM Policy 3](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-iam-policy-3.md)

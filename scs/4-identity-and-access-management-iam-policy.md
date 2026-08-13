@@ -1,4 +1,4 @@
-## (aws) Infrastructure Security - IAM Policy
+## (aws) Identity and Access Management - IAM Policy
 > Structure, NotAction with Allow&Deny, Restrict to One Region (NotAction), Principal Options
 
 <br>
