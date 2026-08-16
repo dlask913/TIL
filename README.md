@@ -640,3 +640,9 @@
 
 **2026-08-12** <br>
 [(aws) Identity and Access Management - IAM Policy 3](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-iam-policy-3.md)
+
+**2026-08-14** <br>
+[(aws) Identity and Access Management - IMDS](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-imds.md)
+
+**2026-08-16** <br>
+[(aws) Identity and Access Management - Cognito User Pools, Identity Pools](4-identity-and-access-management-cup-cip)
