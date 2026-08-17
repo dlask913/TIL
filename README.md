@@ -646,3 +646,6 @@
 
 **2026-08-16** <br>
 [(aws) Identity and Access Management - Cognito User Pools, Identity Pools](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-cup-cip.md)
+
+**2026-08-17** <br>
+[(aws) Identity and Access Management - SAML 2.0 Federation, Web Identity Federation](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-federation.md)
