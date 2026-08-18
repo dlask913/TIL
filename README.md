@@ -649,3 +649,6 @@
 
 **2026-08-17** <br>
 [(aws) Identity and Access Management - SAML 2.0 Federation, Web Identity Federation](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-federation.md)
+
+**2026-08-18** <br>
+[(aws) Identity and Access Management - S3](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-s3.md)
