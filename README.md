@@ -652,3 +652,6 @@
 
 **2026-08-18** <br>
 [(aws) Identity and Access Management - S3](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-s3.md)
+
+**2026-08-21** <br>
+[(aws) Identity and Access Management - AD](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-ad.md)
