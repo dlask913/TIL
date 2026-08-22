@@ -655,3 +655,6 @@
 
 **2026-08-21** <br>
 [(aws) Identity and Access Management - AD](https://github.com/dlask913/TIL/blob/main/scs/4-identity-and-access-management-ad.md)
+
+**2026-08-22** <br>
+[(aws) Data Protection - CloudHSM](https://github.com/dlask913/TIL/blob/main/scs/5-data-protection-cloudhsm.md)
