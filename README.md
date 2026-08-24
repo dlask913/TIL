@@ -658,3 +658,6 @@
 
 **2026-08-22** <br>
 [(aws) Data Protection - CloudHSM](https://github.com/dlask913/TIL/blob/main/scs/5-data-protection-cloudhsm.md)
+
+**2026-08-24** <br>
+[(aws) Data Protection - KMS](https://github.com/dlask913/TIL/blob/main/scs/5-data-protection-kms.md)
