@@ -661,3 +661,6 @@
 
 **2026-08-24** <br>
 [(aws) Data Protection - KMS](https://github.com/dlask913/TIL/blob/main/scs/5-data-protection-kms.md)
+
+**2026-08-25** <br>
+[(aws) Data Protection - KMS](https://github.com/dlask913/TIL/blob/main/scs/5-data-protection-kms-2.md)
