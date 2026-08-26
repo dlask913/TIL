@@ -664,3 +664,6 @@
 
 **2026-08-25** <br>
 [(aws) Data Protection - KMS](https://github.com/dlask913/TIL/blob/main/scs/5-data-protection-kms-2.md)
+
+**2026-08-26** <br>
+[(aws) Data Protection - KMS, S3, EBS, EFS, Secrets Management](https://github.com/dlask913/TIL/blob/main/scs/5-data-protection-kms-s3-ebs-efs-secrets.md)
